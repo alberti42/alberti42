@@ -1,9 +1,5 @@
-## Andrea Alberti's Software Project
-
-Below, you find a list of projects I have been currently maintaining in my past time.
-
 <div class="home"><h1 class="page-heading">Software projects</h1>
-<p>Welcome to Andrea Alberti’s personal page. Below, you find a list of projects I have been currently maintaining in my past time.</p>
+<p>Below, you find a list of projects I have been currently maintaining in my past time.</p>
 
 <h2 id="research-tools">Research Tools</h2>
 
