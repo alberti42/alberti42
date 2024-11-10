@@ -51,7 +51,12 @@
 <p>These are plugins developed to improve the workflow with <a href="https://www.obdev.at/products/launchbar/index.html">LaunchBar</a> personal knowledge management system.</p>
 
 <ul>
-  <li><strong><a href="https://github.com/alberti42/Get-Recent-Adobe-Documents-For-LaunchBar">Get Adobe Recent Documents</a></strong>: A plugin for LaunchBar to show in LaunchBar the list of the documents recently opened for the following Adobe programs <a href="https://www.adobe.com/acrobat.html">Acrobat</a>, <a href="https://www.adobe.com/products/photoshop.html">Photoshop</a>, <a href="https://www.adobe.com/products/illustrator.html">Illustrator</a>.</li>
+  <li>
+    <p><strong><a href="https://github.com/alberti42/Get-Recent-Adobe-Documents-For-LaunchBar">Get Adobe Recent Documents</a></strong>: A plugin for LaunchBar to display the list of the documents recently opened for the following Adobe programs <a href="https://www.adobe.com/acrobat.html">Acrobat</a>, <a href="https://www.adobe.com/products/photoshop.html">Photoshop</a>, <a href="https://www.adobe.com/products/illustrator.html">Illustrator</a>.</p>
+  </li>
+  <li>
+    <p><strong><a href="https://github.com/alberti42/Get-Recent-Adobe-Documents-For-LaunchBar">Get Wolfram Mathematica Recent Documents</a></strong>: A plugin for LaunchBar to display the list of the documents recently opened in <a href="https://www.wolfram.com/mathematica/">Wolfram Mathematica</a>.</p>
+  </li>
 </ul>
 
 <h2 id="sublime-text-editor-plugins">Sublime Text Editor Plugins</h2>
