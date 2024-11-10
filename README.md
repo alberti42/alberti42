@@ -55,7 +55,7 @@
     <p><strong><a href="https://github.com/alberti42/Get-Recent-Adobe-Documents-For-LaunchBar">Get Adobe Recent Documents</a></strong>: A plugin for LaunchBar to display the list of the documents recently opened for the following Adobe programs <a href="https://www.adobe.com/acrobat.html">Acrobat</a>, <a href="https://www.adobe.com/products/photoshop.html">Photoshop</a>, <a href="https://www.adobe.com/products/illustrator.html">Illustrator</a>.</p>
   </li>
   <li>
-    <p><strong><a href="https://github.com/alberti42/Get-Recent-Adobe-Documents-For-LaunchBar">Get Wolfram Mathematica Recent Documents</a></strong>: A plugin for LaunchBar to display the list of the documents recently opened in <a href="https://www.wolfram.com/mathematica/">Wolfram Mathematica</a>.</p>
+    <p><strong><a href="https://github.com/alberti42/Get-Recent-Mathematica-Documents-For-LaunchBar">Get Wolfram Mathematica Recent Documents</a></strong>: A plugin for LaunchBar to display the list of the documents recently opened in <a href="https://www.wolfram.com/mathematica/">Wolfram Mathematica</a>.</p>
   </li>
 </ul>
 
