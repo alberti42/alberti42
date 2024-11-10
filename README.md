@@ -33,7 +33,7 @@
     <p><strong><a href="https://github.com/alberti42/obsidian-dataview-recent-files">Dataview Recent Files</a></strong>: A plugin visualizing a list of recently create and modified files in a fuzzy search modal in Obsidian. It extends the functionality of Obsidian Dataview plugin. The list of the recently created and modified files is determined by the frontmatter fields, rather than on the timestamp of the MarkDown file, which can change in an uncontrolled manner, especially if syncing the vault between multiple Obsidian devices. The dcumentation page is still misisng.</p>
   </li>
   <li>
-    <p><strong><a href="https://github.com/alberti42/obsidian-icon-bar-manager-plugin">Icon Bar Manager</a></strong>: A plugin for hiding undesired icons in Obisdian. Many plugins install icons without offering the possibility to hide them, resulting in a cluttered interface. The plugin allows controlling the order of the few icons one wishes to use. Unfortunately, the documentation page is missing. The plugin is also quite in a alpha stage and probably only useful to expert users who can tweak it.</p>
+    <p><strong><a href="https://github.com/alberti42/obsidian-icon-bar-manager-plugin">Icon Bar Manager</a></strong>: A plugin for hiding undesired icons in Obisdian. Many plugins install icons without offering the possibility to hide them, resulting in a cluttered interface. The plugin allows controlling the order of the few icons one wishes to use. Unfortunately, the documentation page is missing. Furthermore, the plugin is still in an alpha stage and possibly only useful to expert users who can tweak it.</p>
   </li>
   <li>
     <p><strong><a href="https://github.com/alberti42/obsidian-import-attachments-plus">Import Attachments+ Plugin</a></strong>: A plugin that enhances the attachment management experience in Obsidian. It allows you to import, organize, and handle attachments (like images, documents, and other files) seamlessly within your vault.</p>
@@ -46,19 +46,22 @@
   </li>
 </ul>
 
-<h2 id="launchbar-plugins">LaunchBar plugins</h2>
+<h2 id="launchbar-actions">LaunchBar Actions</h2>
 
 <p>These are plugins developed to improve the workflow with <a href="https://www.obdev.at/products/launchbar/index.html">LaunchBar</a> personal knowledge management system.</p>
 
 <ul>
   <li>
-    <p><strong><a href="https://github.com/alberti42/Get-Recent-Adobe-Documents-For-LaunchBar">Get Adobe Recent Documents</a></strong>: A plugin for LaunchBar to display the list of the documents recently opened with the Adobe programs <a href="https://www.adobe.com/acrobat.html">Acrobat</a>, <a href="https://www.adobe.com/products/photoshop.html">Photoshop</a>, <a href="https://www.adobe.com/products/illustrator.html">Illustrator</a>.</p>
+    <p><strong><a href="https://github.com/alberti42/Get-Recent-Adobe-Documents-For-LaunchBar">Get Recent Adobe Documents</a></strong>: A plugin for LaunchBar to display the list of the documents recently opened with the Adobe programs <a href="https://www.adobe.com/acrobat.html">Acrobat</a>, <a href="https://www.adobe.com/products/photoshop.html">Photoshop</a>, <a href="https://www.adobe.com/products/illustrator.html">Illustrator</a>.</p>
   </li>
   <li>
-    <p><strong><a href="https://github.com/alberti42/Get-Recent-MATLAB-Documents-For-LaunchBar">Get MATLAB Recent Documents</a></strong>: A plugin for LaunchBar to display the list of the documents recently opened with <a href="https://www.mathworks.com/">Mathworks MATLAB</a>.</p>
+    <p><strong><a href="https://github.com/alberti42/Get-Recent-MATLAB-Documents-For-LaunchBar">Get Recent MATLAB Documents</a></strong>: A plugin for LaunchBar to display the list of the documents recently opened with <a href="https://www.mathworks.com/">Mathworks MATLAB</a>.</p>
   </li>
   <li>
-    <p><strong><a href="https://github.com/alberti42/Get-Recent-Microsoft-Office-Documents-For-LaunchBar">Get Microsoft Office Recent Documents</a></strong>: A plugin for LaunchBar to display the list of the documents recently opened with the Microsoft Office programs <a href="https://www.microsoft.com/en-us/microsoft-365/word">Word</a>, <a href="https://www.microsoft.com/en-us/microsoft-365/excel">Excel</a>, and <a href="https://www.microsoft.com/en-us/microsoft-365/powerpoint">PowerPoint</a>.</p>
+    <p><strong><a href="https://github.com/alberti42/Get-Recent-Microsoft-Office-Documents-For-LaunchBar">Get Recent Microsoft Office Documents</a></strong>: A plugin for LaunchBar to display the list of the documents recently opened with the Microsoft Office programs <a href="https://www.microsoft.com/en-us/microsoft-365/word">Word</a>, <a href="https://www.microsoft.com/en-us/microsoft-365/excel">Excel</a>, and <a href="https://www.microsoft.com/en-us/microsoft-365/powerpoint">PowerPoint</a>.</p>
+  </li>
+  <li>
+    <p><strong><a href="https://github.com/alberti42/Get-Recent-VS-Code-Documents-For-LaunchBar">Get Recent Visual Studio Code Documents</a></strong>: A plugin for LaunchBar to display the list of the documents recently opened with <a href="https://code.visualstudio.com/">Visual Studio Code</a>.</p>
   </li>
   <li>
     <p><strong><a href="https://github.com/alberti42/Get-Recent-Mathematica-Documents-For-LaunchBar">Get Wolfram Mathematica Recent Documents</a></strong>: A plugin for LaunchBar to display the list of the documents recently opened with <a href="https://www.wolfram.com/mathematica/">Wolfram Mathematica</a>.</p>
