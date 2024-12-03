@@ -72,6 +72,9 @@
 
 <ul>
   <li><strong><a href="https://github.com/alberti42/Nearley.sublime-syntax">Nearly syntax highlighting for Sublime Text Editor</a></strong>: A Sublime Text syntax highlighting file for <a href="https://nearley.js.org/">Nearley</a>. Nearly is a simple, fast, and powerful parsing toolkit. The Nearley.sublime-syntax file enables Sublime Text to recognize and highlight the syntax of Nearley grammar files (<code class="language-plaintext highlighter-rouge">*.ne</code>) effectively.</li>
+<li>
+  <p><strong><a href="https://github.com/alberti42/sublime-virtualenv">Virtualenv Manager for Sublime Text</a></strong>: A Sublime Text plugin that provides a simple and efficient way to manage Python virtual environments directly from the editor.</p>
+</li>
 </ul>
 
 <h2 id="macos-utilities">macOS Utilities</h2>
