@@ -42,7 +42,7 @@
     <p><strong><a href="https://github.com/alberti42/obsidian-minimize-on-close">Minimize on Close</a></strong>: A plugin that minimizes the application window to the dock or taskbar when all open panes are closed. This behavior is particularly standard on macOS and can now be optionally applied across all platforms.</p>
   </li>
   <li>
-    <p><strong><a href="https://github.com/alberti42/obsidian-import-attachments-plus">Recoll Search Engine Plugin for Obsidian</a></strong>: A plugin for Obsidian to search the vault using the powerful <a href="https://www.recoll.org/">Recoll Search Engine</a>.</p>
+    <p><strong><a href="https://github.com/alberti42/obsidian-recoll-search-plugin">Recoll Search Engine Plugin for Obsidian</a></strong>: A plugin for Obsidian to search the vault using the powerful <a href="https://www.recoll.org/">Recoll Search Engine</a>.</p>
   </li>
 </ul>
 
