@@ -5,6 +5,9 @@
 
 <ul>
   <li>
+    <p><strong><a href="https://github.com/alberti42/jupyterlab_image_downloader">JupyterLab Image Downloader for SVG and Common Image Formats</a></strong>: A userscript to add a <strong>download button</strong> to images and SVGs rendered in JupyterLab notebooks. This script supports both <code class="language-plaintext highlighter-rouge">.svg</code> and common image formats like <code class="language-plaintext highlighter-rouge">.png</code> and <code class="language-plaintext highlighter-rouge">.jpeg</code>. The download buttons appear in the top-right corner of the rendered output, allowing you to save the plot with a single click.</p>
+  </li>
+  <li>
     <p><strong><a href="https://github.com/alberti42/jupyterlab_mapyter">JupyterLab extension for Mapyter</a></strong>: A JupyterLab extension providing syntax support for <a href="https://github.com/alberti42/mapyter">Mapyter kernel</a>. It also provides a plugin for JupyterLab for downloading plots with a button. The button is particularly convenient to save plots shown as vectorial <code class="language-plaintext highlighter-rouge">.svg</code> graphics.</p>
   </li>
   <li>
@@ -71,10 +74,15 @@
 <h2 id="sublime-text-editor-plugins">Sublime Text Editor Plugins</h2>
 
 <ul>
-  <li><strong><a href="https://github.com/alberti42/Nearley.sublime-syntax">Nearly syntax highlighting for Sublime Text Editor</a></strong>: A Sublime Text syntax highlighting file for <a href="https://nearley.js.org/">Nearley</a>. Nearly is a simple, fast, and powerful parsing toolkit. The Nearley.sublime-syntax file enables Sublime Text to recognize and highlight the syntax of Nearley grammar files (<code class="language-plaintext highlighter-rouge">*.ne</code>) effectively.</li>
-<li>
-  <p><strong><a href="https://github.com/alberti42/sublime-virtualenv">Virtualenv Manager for Sublime Text</a></strong>: A Sublime Text plugin that provides a simple and efficient way to manage Python virtual environments directly from the editor.</p>
-</li>
+  <li>
+    <p><strong><a href="https://github.com/alberti42/Nearley.sublime-syntax">Nearly syntax highlighting for Sublime Text Editor</a></strong>: A Sublime Text syntax highlighting file for <a href="https://nearley.js.org/">Nearley</a>. Nearly is a simple, fast, and powerful parsing toolkit. The Nearley.sublime-syntax file enables Sublime Text to recognize and highlight the syntax of Nearley grammar files (<code class="language-plaintext highlighter-rouge">*.ne</code>) effectively.</p>
+  </li>
+  <li>
+    <p><strong><a href="https://github.com/alberti42/convert_pyright_to_basepyright">Sublime Project Pyright to Basedpyright Converter</a></strong>: This utility converts Sublime Text <code class="language-plaintext highlighter-rouge">.sublime-project</code> files configured for <code class="language-plaintext highlighter-rouge">LSP-pyright</code> to use <code class="language-plaintext highlighter-rouge">LSP-basedpyright</code>. <code class="language-plaintext highlighter-rouge">LSP-basedpyright</code> extends the functionality of <code class="language-plaintext highlighter-rouge">LSP-pyright</code> by providing enhanced support for Python projects in Sublime Text</p>
+  </li>
+  <li>
+    <p><strong><a href="https://github.com/alberti42/sublime-virtualenv">Virtualenv Manager for Sublime Text</a></strong>: A Sublime Text plugin that provides a simple and efficient way to manage Python virtual environments directly from the editor.</p>
+  </li>
 </ul>
 
 <h2 id="macos-utilities">macOS Utilities</h2>
