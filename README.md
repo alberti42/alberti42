@@ -1,5 +1,5 @@
 <div class="home"><h1 class="page-heading">Software projects</h1>
-<p>Below, you find a list of projects I have been currently maintaining in my past time.</p>
+<p>Below, you find a list of projects I have been currently maintaining in my pastime.</p>
 
 <h2 id="research-tools">Research Tools</h2>
 
@@ -67,6 +67,9 @@
     <p><strong><a href="https://github.com/alberti42/Get-Recent-VS-Code-Documents-For-LaunchBar">Get Recent Visual Studio Code Documents</a></strong>: A plugin for LaunchBar to display the list of the documents recently opened with <a href="https://code.visualstudio.com/">Visual Studio Code</a>.</p>
   </li>
   <li>
+    <p><strong><a href="https://github.com/alberti42/Get-Recent-ST-Files-For-LaunchBar">Get Recently Opened Files with Sublime Text for LaunchBar</a></strong>: A plugin for LaunchBar to display the list of the files and projects recently opened with <a href="https://www.sublimetext.com/">Sublime Text</a> editor. This plugin is designed to work together with the companion plugin <a href="https://github.com/alberti42/sublime-recent-files-tracker">Recent Files Tracker</a> for Sublime Text editor.</p>
+  </li>
+  <li>
     <p><strong><a href="https://github.com/alberti42/Get-Recent-Mathematica-Documents-For-LaunchBar">Get Wolfram Mathematica Recent Documents</a></strong>: A plugin for LaunchBar to display the list of the documents recently opened with <a href="https://www.wolfram.com/mathematica/">Wolfram Mathematica</a>.</p>
   </li>
 </ul>
@@ -78,10 +81,26 @@
     <p><strong><a href="https://github.com/alberti42/Nearley.sublime-syntax">Nearly syntax highlighting for Sublime Text Editor</a></strong>: A Sublime Text syntax highlighting file for <a href="https://nearley.js.org/">Nearley</a>. Nearly is a simple, fast, and powerful parsing toolkit. The Nearley.sublime-syntax file enables Sublime Text to recognize and highlight the syntax of Nearley grammar files (<code class="language-plaintext highlighter-rouge">*.ne</code>) effectively.</p>
   </li>
   <li>
+    <p><strong><a href="https://github.com/alberti42/sublime-recent-files-tracker">Recent Files Tracker for Sublime Text</a></strong>: A Sublime Text plugin that tracks recently opened files and projects. It stores the file paths in a JSON file, making it easy to integrate with other tools. This plugin is especially designed to work together with the companion plugin <a href="https://github.com/alberti42/Get-Recent-ST-Files-For-LaunchBar">Get Recently Opened Files with Sublime Text</a> for LaunchBar.</p>
+  </li>
+  <li>
     <p><strong><a href="https://github.com/alberti42/convert_pyright_to_basepyright">Sublime Project Pyright to Basedpyright Converter</a></strong>: This utility converts Sublime Text <code class="language-plaintext highlighter-rouge">.sublime-project</code> files configured for <code class="language-plaintext highlighter-rouge">LSP-pyright</code> to use <code class="language-plaintext highlighter-rouge">LSP-basedpyright</code>. <code class="language-plaintext highlighter-rouge">LSP-basedpyright</code> extends the functionality of <code class="language-plaintext highlighter-rouge">LSP-pyright</code> by providing enhanced support for Python projects in Sublime Text</p>
   </li>
   <li>
     <p><strong><a href="https://github.com/alberti42/sublime-virtualenv">Virtualenv Manager for Sublime Text</a></strong>: A Sublime Text plugin that provides a simple and efficient way to manage Python virtual environments directly from the editor.</p>
+  </li>
+</ul>
+
+<h2 id="zsh-plugins">Zsh Plugins</h2>
+
+<p>These are plugins developed to improve the workflow <a href="https://www.zsh.org/">Zsh</a> shell.</p>
+
+<ul>
+  <li>
+    <p><strong><a href="https://github.com/alberti42/zsh-misc-completions/tree/main">Zsh autocompletion plugin for miscellaneous commands</a></strong>: This repository contains a collection of miscellaneous Zsh completions for various tools.</p>
+  </li>
+  <li>
+    <p><strong><a href="https://github.com/alberti42/tmux-ssh-syncing">tmux-ssh-syncing Plugin for Zsh Shell</a></strong>: Synchronize your tmux window names with active ssh sessions. This plugin dynamically updates the tmux window name to reflect the remote hosts of active ssh sessions in the same window. It also restores the original window name when all ssh sessions are closed.</p>
   </li>
 </ul>
 
