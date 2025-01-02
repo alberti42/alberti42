@@ -1,4 +1,5 @@
-<div class="home"><h1 class="page-heading">Software projects</h1>
+<div class="wrapper">
+        <div class="home"><h1 class="page-heading">Software projects</h1>
 <p>Below, you find a list of projects I have been currently maintaining in my pastime.</p>
 
 <h2 id="research-tools">Research Tools</h2>
@@ -91,9 +92,9 @@
   </li>
 </ul>
 
-<h2 id="zsh-plugins">Zsh Plugins</h2>
+<h2 id="shell-plugins">Shell Plugins</h2>
 
-<p>These are plugins developed to improve the workflow <a href="https://www.zsh.org/">Zsh</a> shell.</p>
+<p>These are plugins developed to improve the workflow with <a href="https://www.zsh.org/">Zsh</a> shell and <a href="https://github.com/tmux/tmux">Tmux</a>.</p>
 
 <ul>
   <li>
@@ -129,3 +130,5 @@
   
   
 </div>
+
+      </div>
