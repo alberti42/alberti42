@@ -87,7 +87,7 @@
     <p><strong><a href="https://github.com/alberti42/convert_pyright_to_basepyright">Sublime Project Pyright to Basedpyright Converter</a></strong>: This utility converts Sublime Text <code class="language-plaintext highlighter-rouge">.sublime-project</code> files configured for <code class="language-plaintext highlighter-rouge">LSP-pyright</code> to use <code class="language-plaintext highlighter-rouge">LSP-basedpyright</code>. <code class="language-plaintext highlighter-rouge">LSP-basedpyright</code> extends the functionality of <code class="language-plaintext highlighter-rouge">LSP-pyright</code> by providing enhanced support for Python projects in Sublime Text</p>
   </li>
   <li>
-    <p><strong><a href="https://github.com/alberti42/sublime-virtualenv">Virtualenv Manager for Sublime Text</a></strong>: A Sublime Text plugin that provides a simple and efficient way to manage Python virtual environments directly from the editor.</p>
+    <p><strong><a href="https://github.com/alberti42/sublime-virtualenv">Virtualenv Selector for Sublime Text</a></strong>: A Sublime Text plugin that provides a simple way to select Python virtual environments directly from the editor.</p>
   </li>
 </ul>
 
@@ -100,7 +100,10 @@
     <p><strong><a href="https://github.com/alberti42/zsh-misc-completions/tree/main">Zsh autocompletion plugin for miscellaneous commands</a></strong>: This repository contains a collection of miscellaneous Zsh completions for various tools.</p>
   </li>
   <li>
-    <p><strong><a href="https://github.com/alberti42/tmux-ssh-syncing">tmux-ssh-syncing Plugin for Zsh Shell</a></strong>: Synchronize your tmux window names with active ssh sessions. This plugin dynamically updates the tmux window name to reflect the remote hosts of active ssh sessions in the same window. It also restores the original window name when all ssh sessions are closed.</p>
+    <p><strong><a href="https://github.com/alberti42/tmux-fzf-links">tmux-fzf-links plugin for tmux</a></strong>: A versatie tmux plugin to open any kind of link. Links are defined by customizable regular expressions. You can open local files, url, and any lines of code where errors have been generated.</p>
+  </li>
+  <li>
+    <p><strong><a href="https://github.com/alberti42/tmux-ssh-syncing">tmux-ssh-syncing plugin for zsh shell</a></strong>: Synchronize your tmux window names with active ssh sessions. This plugin dynamically updates the tmux window name to reflect the remote hosts of active ssh sessions in the same window. It also restores the original window name when all ssh sessions are closed.</p>
   </li>
 </ul>
 
