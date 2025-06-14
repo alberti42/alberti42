@@ -1,5 +1,4 @@
-<div class="wrapper">
-        <div class="home"><h1 class="page-heading">Software projects</h1>
+<div class="home"><h1 class="page-heading">Software projects</h1>
 <p>Below, you find a list of projects I have been currently maintaining in my pastime.</p>
 
 <h2 id="research-tools">Research Tools</h2>
@@ -73,6 +72,9 @@
   <li>
     <p><strong><a href="https://github.com/alberti42/Get-Recent-Mathematica-Documents-For-LaunchBar">Get Wolfram Mathematica Recent Documents</a></strong>: A plugin for LaunchBar to display the list of the documents recently opened with <a href="https://www.wolfram.com/mathematica/">Wolfram Mathematica</a>.</p>
   </li>
+  <li>
+    <p><strong><a href="https://github.com/alberti42/Open-iTerm2-Profile">Open iTerm2 Profile</a></strong>: A plugin for LaunchBar that allows users to quickly open a terminal session using any available <a href="https://iterm2.com/">iTerm2</a> profile.</p>
+  </li>
 </ul>
 
 <h2 id="sublime-text-editor-plugins">Sublime Text Editor Plugins</h2>
@@ -101,6 +103,9 @@
     <p><strong><a href="https://github.com/alberti42/zsh-misc-completions/tree/main">Zsh autocompletion plugin for miscellaneous commands</a></strong>: This repository contains a collection of miscellaneous Zsh completions for various tools.</p>
   </li>
   <li>
+    <p><strong><a href="https://github.com/alberti42/dotfiles">dotfiles for macOS &amp; linux</a></strong>: These are my personal dotfiles, which include configurations for zsh shell, various tools and applications I use daily. They are designed to be lightweight and fast, supporting my workflow on macOS and Linux.</p>
+  </li>
+  <li>
     <p><strong><a href="https://github.com/alberti42/tmux-fzf-links">tmux-fzf-links plugin for tmux</a></strong>: A versatie tmux plugin to open any kind of link. Links are defined by customizable regular expressions. You can open local files, url, and any lines of code where errors have been generated.</p>
   </li>
   <li>
@@ -113,6 +118,9 @@
 <ul>
   <li>
     <p><strong><a href="https://github.com/alberti42/SSHuttleBar">SSHuttleBar</a></strong>: This apps allows you to control the CLI utility <a href="https://github.com/sshuttle/sshuttle"><code class="language-plaintext highlighter-rouge">sshuttle</code></a> direclty from the macOS menu bar. Thereby, one can emulate the functionality of a VPN by leveraging SSH connections. The program works, but the documentation is still missing. It integrates with 1Password SSH agent to retrieve automatically the password of remote servers.</p>
+  </li>
+  <li>
+    <p><strong><a href="https://github.com/alberti42/macOS-hotkeys-manager">macOS Hotkey Manager</a></strong>: A Python script for exporting, importing and resetting macOS application hotkeys. This is particularly useful if you need to transfer your custom keyboard shortcuts to a different machine or back them up for safekeeping.</p>
   </li>
   <li>
     <p><strong><a href="https://github.com/alberti42/Magic-Warnings">Magic Warnings</a></strong>: A lightweight macOS app that monitors the battery levels of your Apple Magic Mouse, Trackpad, and Keyboard.</p>
@@ -130,5 +138,3 @@
   
   
 </div>
-
-      </div>
