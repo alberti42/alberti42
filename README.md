@@ -1,4 +1,5 @@
-<div class="home"><h1 class="page-heading">Software projects</h1>
+<div class="wrapper">
+        <div class="home"><h1 class="page-heading">Software projects</h1>
 <p>Below, you find a list of projects I have been currently maintaining in my pastime.</p>
 
 <h2 id="research-tools">Research Tools</h2>
@@ -8,16 +9,16 @@
     <p><strong><a href="https://github.com/alberti42/chatGPT-plain-composer">ChatGPT Plain Text Composer (userscript)</a></strong>: A lightweight userscript for ChatGPT that replaces the native rich composer with a plain textarea overlay for smooth, lag-free typing — especially in very long chats where the default composer can become slow.</p>
   </li>
   <li>
-    <p><strong><a href="https://github.com/alberti42/jupyterlab_image_downloader">JupyterLab Image Downloader for SVG and Common Image Formats</a></strong>: A userscript to add a <strong>download button</strong> to images and SVGs rendered in JupyterLab notebooks. This script supports both <code class="highlighter-rouge language-plaintext">.svg</code> and common image formats like <code class="highlighter-rouge language-plaintext">.png</code> and <code class="highlighter-rouge language-plaintext">.jpeg</code>. The download buttons appear in the top-right corner of the rendered output, allowing you to save the plot with a single click.</p>
+    <p><strong><a href="https://github.com/alberti42/jupyterlab_image_downloader">JupyterLab Image Downloader for SVG and Common Image Formats</a></strong>: A userscript to add a <strong>download button</strong> to images and SVGs rendered in JupyterLab notebooks. This script supports both <code class="language-plaintext highlighter-rouge">.svg</code> and common image formats like <code class="language-plaintext highlighter-rouge">.png</code> and <code class="language-plaintext highlighter-rouge">.jpeg</code>. The download buttons appear in the top-right corner of the rendered output, allowing you to save the plot with a single click.</p>
   </li>
   <li>
-    <p><strong><a href="https://github.com/alberti42/jupyterlab_mapyter">JupyterLab extension for Mapyter</a></strong>: A JupyterLab extension providing syntax support for <a href="https://github.com/alberti42/mapyter">Mapyter kernel</a>. It also provides a plugin for JupyterLab for downloading plots with a button. The button is particularly convenient to save plots shown as vectorial <code class="highlighter-rouge language-plaintext">.svg</code> graphics.</p>
+    <p><strong><a href="https://github.com/alberti42/jupyterlab_mapyter">JupyterLab extension for Mapyter</a></strong>: A JupyterLab extension providing syntax support for <a href="https://github.com/alberti42/mapyter">Mapyter kernel</a>. It also provides a plugin for JupyterLab for downloading plots with a button. The button is particularly convenient to save plots shown as vectorial <code class="language-plaintext highlighter-rouge">.svg</code> graphics.</p>
   </li>
   <li>
     <p><strong><a href="https://github.com/alberti42/Keynote-Progress-Bar">Keynote Progress Bar</a></strong>: This AppleScript program adds a customizable progress bar to presentations created with Apple Keynote. The progress bar is configured using commands placed in the presenter notes of your slides. This project utilizes a custom Objective-C framework, KeynoteProgressBarHelper, for generating vector graphics (PDF) images of the progress bar.</p>
   </li>
   <li>
-    <p><strong><a href="https://github.com/alberti42/mapyter">Mapyter</a></strong>: A JupyterLab kernel to develop MATLAB in a notebook. The project started before Mathworks started <a href="https://de.mathworks.com/products/reference-architectures/jupyter.html">their development</a> of MATLAB kernel for JupyterLab. It offers more advanced features than those currenlty provided by the official kernel, such as the possibility to update plots live, create animations, and display progress bar (even for <code class="highlighter-rouge language-plaintext">parfor</code> loops!). Unfortunately, the documentation page is still missing.</p>
+    <p><strong><a href="https://github.com/alberti42/mapyter">Mapyter</a></strong>: A JupyterLab kernel to develop MATLAB in a notebook. The project started before Mathworks started <a href="https://de.mathworks.com/products/reference-architectures/jupyter.html">their development</a> of MATLAB kernel for JupyterLab. It offers more advanced features than those currenlty provided by the official kernel, such as the possibility to update plots live, create animations, and display progress bar (even for <code class="language-plaintext highlighter-rouge">parfor</code> loops!). Unfortunately, the documentation page is still missing.</p>
   </li>
   <li>
     <p><strong><a href="https://github.com/alberti42/Millennia-Laser-Control-App/blob/main/README.md">Millennia Laser Control App</a></strong>: Application for controlling and logging Spectra-Physics Millennia Lasers. It covers all functions provided by the app shipped originally with the laser. It also provides new features, most notably, the possibility to log multiple parameters of the laser. Moreover, it gives a feedback about the instantaneous RMS noise level of the laser (5s integration time). And it allows controlling multiple lasers when these are connected to the same computer via USB.</p>
@@ -87,13 +88,13 @@
 
 <ul>
   <li>
-    <p><strong><a href="https://github.com/alberti42/Nearley.sublime-syntax">Nearly syntax highlighting for Sublime Text Editor</a></strong>: A Sublime Text syntax highlighting file for <a href="https://nearley.js.org/">Nearley</a>. Nearly is a simple, fast, and powerful parsing toolkit. The Nearley.sublime-syntax file enables Sublime Text to recognize and highlight the syntax of Nearley grammar files (<code class="highlighter-rouge language-plaintext">*.ne</code>) effectively.</p>
+    <p><strong><a href="https://github.com/alberti42/Nearley.sublime-syntax">Nearly syntax highlighting for Sublime Text Editor</a></strong>: A Sublime Text syntax highlighting file for <a href="https://nearley.js.org/">Nearley</a>. Nearly is a simple, fast, and powerful parsing toolkit. The Nearley.sublime-syntax file enables Sublime Text to recognize and highlight the syntax of Nearley grammar files (<code class="language-plaintext highlighter-rouge">*.ne</code>) effectively.</p>
   </li>
   <li>
     <p><strong><a href="https://github.com/alberti42/sublime-recent-files-tracker">Recent Files Tracker for Sublime Text</a></strong>: A Sublime Text plugin that tracks recently opened files and projects. It stores the file paths in a JSON file, making it easy to integrate with other tools. This plugin is especially designed to work together with the companion plugin <a href="https://github.com/alberti42/Get-Recent-ST-Files-For-LaunchBar">Get Recently Opened Files with Sublime Text</a> for LaunchBar.</p>
   </li>
   <li>
-    <p><strong><a href="https://github.com/alberti42/convert_pyright_to_basepyright">Sublime Project Pyright to Basedpyright Converter</a></strong>: This utility converts Sublime Text <code class="highlighter-rouge language-plaintext">.sublime-project</code> files configured for <code class="highlighter-rouge language-plaintext">LSP-pyright</code> to use <code class="highlighter-rouge language-plaintext">LSP-basedpyright</code>. <code class="highlighter-rouge language-plaintext">LSP-basedpyright</code> extends the functionality of <code class="highlighter-rouge language-plaintext">LSP-pyright</code> by providing enhanced support for Python projects in Sublime Text</p>
+    <p><strong><a href="https://github.com/alberti42/convert_pyright_to_basepyright">Sublime Project Pyright to Basedpyright Converter</a></strong>: This utility converts Sublime Text <code class="language-plaintext highlighter-rouge">.sublime-project</code> files configured for <code class="language-plaintext highlighter-rouge">LSP-pyright</code> to use <code class="language-plaintext highlighter-rouge">LSP-basedpyright</code>. <code class="language-plaintext highlighter-rouge">LSP-basedpyright</code> extends the functionality of <code class="language-plaintext highlighter-rouge">LSP-pyright</code> by providing enhanced support for Python projects in Sublime Text</p>
   </li>
   <li>
     <p><strong><a href="https://github.com/alberti42/sublime-virtualenv">Virtualenv Selector for Sublime Text</a></strong>: A Sublime Text plugin that provides a simple way to select Python virtual environments directly from the editor.</p>
@@ -106,7 +107,13 @@
 
 <ul>
   <li>
-    <p><strong><a href="https://github.com/alberti42/zsh-misc-completions/tree/main">Zsh autocompletion plugin for miscellaneous commands</a></strong>: This repository contains a collection of miscellaneous Zsh completions for various tools.</p>
+    <p><strong><a href="https://github.com/alberti42/faster-piper.yazi">Yazi plugin faster-piper</a></strong>: faster-piper is a general-purpose previewer that pipes the output of an arbitrary shell command into Yazi’s preview pane, with aggressive caching and efficient scrolling for large outputs.</p>
+  </li>
+  <li>
+    <p><strong><a href="https://github.com/alberti42/zinit-annex-latest-release">Zinit Annex for Sourcing the Latest GitHub Release</a></strong>: Zinit annex that automatically selects the latest GitHub release tag when installing or updating plugins built from source.</p>
+  </li>
+  <li>
+    <p><strong><a href="https://github.com/alberti42/zsh-misc-completions">Zsh autocompletion plugin for miscellaneous commands</a></strong>: This repository contains a collection of miscellaneous Zsh completions for various tools.</p>
   </li>
   <li>
     <p><strong><a href="https://github.com/alberti42/dotfiles">dotfiles for macOS &amp; linux</a></strong>: These are my personal dotfiles, which include configurations for zsh shell, various tools and applications I use daily. They are designed to be lightweight and fast, supporting my workflow on macOS and Linux.</p>
@@ -123,7 +130,7 @@
 
 <ul>
   <li>
-    <p><strong><a href="https://github.com/alberti42/SSHuttleBar">SSHuttleBar</a></strong>: This apps allows you to control the CLI utility <a href="https://github.com/sshuttle/sshuttle"><code class="highlighter-rouge language-plaintext">sshuttle</code></a> direclty from the macOS menu bar. Thereby, one can emulate the functionality of a VPN by leveraging SSH connections. The program works, but the documentation is still missing. It integrates with 1Password SSH agent to retrieve automatically the password of remote servers.</p>
+    <p><strong><a href="https://github.com/alberti42/SSHuttleBar">SSHuttleBar</a></strong>: This apps allows you to control the CLI utility <a href="https://github.com/sshuttle/sshuttle"><code class="language-plaintext highlighter-rouge">sshuttle</code></a> direclty from the macOS menu bar. Thereby, one can emulate the functionality of a VPN by leveraging SSH connections. The program works, but the documentation is still missing. It integrates with 1Password SSH agent to retrieve automatically the password of remote servers.</p>
   </li>
   <li>
     <p><strong><a href="https://github.com/alberti42/macOS-hotkeys-manager">macOS Hotkey Manager</a></strong>: A Python script for exporting, importing and resetting macOS application hotkeys. This is particularly useful if you need to transfer your custom keyboard shortcuts to a different machine or back them up for safekeeping.</p>
@@ -132,7 +139,7 @@
     <p><strong><a href="https://github.com/alberti42/Magic-Warnings">Magic Warnings</a></strong>: A lightweight macOS app that monitors the battery levels of your Apple Magic Mouse, Trackpad, and Keyboard.</p>
   </li>
   <li>
-    <p><strong><a href="https://github.com/alberti42/Volume-Control">Volume Control App</a></strong>: This app allows you to directly control the volume of Apple Music and of Spotify using <code class="highlighter-rouge language-plaintext">volume-up</code> and <code class="highlighter-rouge language-plaintext">volume-down</code> keys from your keyboard.</p>
+    <p><strong><a href="https://github.com/alberti42/Volume-Control">Volume Control App</a></strong>: This app allows you to directly control the volume of Apple Music and of Spotify using <code class="language-plaintext highlighter-rouge">volume-up</code> and <code class="language-plaintext highlighter-rouge">volume-down</code> keys from your keyboard.</p>
   </li>
   <li>
     <p><strong><a href="https://github.com/alberti42/iTunes-Volume-Control">iTunes Volume Control</a></strong>: The app is discontinued and superceded by Volume Control. The reason is that iTunes does no longer exist in recent macOS versions. Also, the newer app, Volume Control, is no longer restricted to Apple Music. It also works with Spotify and a few other music players.</p>
@@ -144,3 +151,5 @@
   
   
 </div>
+
+      </div>
