@@ -124,6 +124,9 @@
   <li>
     <p><strong><a href="https://github.com/alberti42/tmux-ssh-syncing">tmux-ssh-syncing plugin for zsh shell</a></strong>: Synchronize your tmux window names with active ssh sessions. This plugin dynamically updates the tmux window name to reflect the remote hosts of active ssh sessions in the same window. It also restores the original window name when all ssh sessions are closed.</p>
   </li>
+  <li>
+    <p><strong><a href="https://github.com/alberti42/Zsh-Opencode-Tab">zsh-opencode-tab</a></strong>: A zsh plugin to turn natural language into a zsh command by pressing TAB. Compatible with Oh My Zsh.</p>
+  </li>
 </ul>
 
 <h2 id="macos-utilities">macOS Utilities</h2>
@@ -134,6 +137,9 @@
   </li>
   <li>
     <p><strong><a href="https://github.com/alberti42/macOS-hotkeys-manager">macOS Hotkey Manager</a></strong>: A Python script for exporting, importing and resetting macOS application hotkeys. This is particularly useful if you need to transfer your custom keyboard shortcuts to a different machine or back them up for safekeeping.</p>
+  </li>
+  <li>
+    <p><strong><a href="https://github.com/alberti42/macOS-config-manager">macOS Config Manager</a></strong>: A small, dependency-free Python CLI to snapshot and restore macOS preferences managed via the defaults system.</p>
   </li>
   <li>
     <p><strong><a href="https://github.com/alberti42/Magic-Warnings">Magic Warnings</a></strong>: A lightweight macOS app that monitors the battery levels of your Apple Magic Mouse, Trackpad, and Keyboard.</p>
