@@ -1,5 +1,4 @@
-<div class="wrapper">
-        <div class="home"><h1 class="page-heading">Software projects</h1>
+<div class="home"><h1 class="page-heading">Software projects</h1>
 <p>Below, you find a list of projects I have been currently maintaining in my pastime.</p>
 
 <h2 id="research-tools">Research Tools</h2>
@@ -54,6 +53,14 @@
   <li>
     <p><strong><a href="https://github.com/alberti42/obsidian-recoll-search-plugin">Recoll Search Engine Plugin for Obsidian</a></strong>: A plugin for Obsidian to search the vault using the powerful <a href="https://www.recoll.org/">Recoll Search Engine</a>.</p>
   </li>
+</ul>
+
+<h2 id="python-packages">Python Packages</h2>
+
+<p>These are Python packages developed to improve the workflow in scientific computing and scientific automation:</p>
+
+<ul>
+  <li><strong><a href="https://github.com/alberti42/matplotlib-window-tracker">Matplotlib Window Tracker (matplotlib-window-tracker)</a></strong>: This package, <code class="language-plaintext highlighter-rouge">matplotlib-window-tracker</code>, is designed for scientists and anyone who prefers a script-based workflow (plain <code class="language-plaintext highlighter-rouge">.py</code> files) with IPython. It keep windows where you placed them: reuse the same OS windows across re-runs.</li>
 </ul>
 
 <h2 id="launchbar-actions">LaunchBar Actions</h2>
@@ -123,6 +130,9 @@
   </li>
   <li>
     <p><strong><a href="https://github.com/alberti42/tmux-ssh-syncing">tmux-ssh-syncing plugin for zsh shell</a></strong>: Synchronize your tmux window names with active ssh sessions. This plugin dynamically updates the tmux window name to reflect the remote hosts of active ssh sessions in the same window. It also restores the original window name when all ssh sessions are closed.</p>
+  </li>
+  <li>
+    <p><strong><a href="https://github.com/alberti42/zsh-appearance-control">zsh-appearance-control</a></strong>: a Zsh plugin that helps your shell “remember” whether you are in light mode or dark mode.</p>
   </li>
   <li>
     <p><strong><a href="https://github.com/alberti42/Zsh-Opencode-Tab">zsh-opencode-tab</a></strong>: A zsh plugin to turn natural language into a zsh command by pressing TAB. Compatible with Oh My Zsh.</p>
