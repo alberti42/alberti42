@@ -1,5 +1,5 @@
 <div class="home"><h1 class="page-heading">Software projects</h1>
-<p>Below, you find a list of projects I have been currently maintaining in my pastime.</p>
+<p>Welcome to Andrea Alberti’s personal page. Below, you find a list of projects I have been currently maintaining in my pastime.</p>
 
 <h2 id="research-tools">Research Tools</h2>
 
@@ -124,6 +124,9 @@
   </li>
   <li>
     <p><strong><a href="https://github.com/alberti42/dotfiles">dotfiles for macOS &amp; linux</a></strong>: These are my personal dotfiles, which include configurations for zsh shell, various tools and applications I use daily. They are designed to be lightweight and fast, supporting my workflow on macOS and Linux.</p>
+  </li>
+  <li>
+    <p><strong><a href="https://github.com/alberti42/fzf-recent-dirs">fzf-recent-files</a></strong>: A minimal Zsh plugin for fuzzy-jumping to recently visited directories</p>
   </li>
   <li>
     <p><strong><a href="https://github.com/alberti42/tmux-fzf-links">tmux-fzf-links plugin for tmux</a></strong>: A versatie tmux plugin to open any kind of link. Links are defined by customizable regular expressions. You can open local files, url, and any lines of code where errors have been generated.</p>
