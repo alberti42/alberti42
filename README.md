@@ -1,4 +1,5 @@
-<div class="home"><h1 class="page-heading">Software projects</h1>
+<div class="wrapper">
+        <div class="home"><h1 class="page-heading">Software projects</h1>
 <p>Welcome to Andrea Alberti’s personal page. Below, you find a list of projects I have been currently maintaining in my pastime.</p>
 
 <h2 id="research-tools">Research Tools</h2>
@@ -126,6 +127,9 @@
     <p><strong><a href="https://github.com/alberti42/dotfiles">dotfiles for macOS &amp; linux</a></strong>: These are my personal dotfiles, which include configurations for zsh shell, various tools and applications I use daily. They are designed to be lightweight and fast, supporting my workflow on macOS and Linux.</p>
   </li>
   <li>
+    <p><strong><a href="https://github.com/alberti42/emacs-tmux-tandem">emacs-tmux-tandem</a></strong>: An Emacs module to integrate Emacs in Tmux. Keep Emacs running in one pane of a tmux window alongside your other tools — a shell, yazi, lazygit, or anything else. Run et FILE from any pane in that window and the file opens instantly in the Emacs session next to you.</p>
+  </li>
+  <li>
     <p><strong><a href="https://github.com/alberti42/fzf-recent-dirs">fzf-recent-files</a></strong>: A minimal Zsh plugin for fuzzy-jumping to recently visited directories</p>
   </li>
   <li>
@@ -164,9 +168,5 @@
     <p><strong><a href="https://github.com/alberti42/iTunes-Volume-Control">iTunes Volume Control</a></strong>: The app is discontinued and superceded by Volume Control. The reason is that iTunes does no longer exist in recent macOS versions. Also, the newer app, Volume Control, is no longer restricted to Apple Music. It also works with Spotify and a few other music players.</p>
   </li>
 </ul>
-
-
-
-  
   
 </div>
