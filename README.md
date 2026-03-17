@@ -101,12 +101,6 @@
   <li>
     <p><strong><a href="https://github.com/alberti42/sublime-recent-files-tracker">Recent Files Tracker for Sublime Text</a></strong>: A Sublime Text plugin that tracks recently opened files and projects. It stores the file paths in a JSON file, making it easy to integrate with other tools. This plugin is especially designed to work together with the companion plugin <a href="https://github.com/alberti42/Get-Recent-ST-Files-For-LaunchBar">Get Recently Opened Files with Sublime Text</a> for LaunchBar.</p>
   </li>
-  <li>
-    <p><strong><a href="https://github.com/alberti42/convert_pyright_to_basepyright">Sublime Project Pyright to Basedpyright Converter</a></strong>: This utility converts Sublime Text <code class="language-plaintext highlighter-rouge">.sublime-project</code> files configured for <code class="language-plaintext highlighter-rouge">LSP-pyright</code> to use <code class="language-plaintext highlighter-rouge">LSP-basedpyright</code>. <code class="language-plaintext highlighter-rouge">LSP-basedpyright</code> extends the functionality of <code class="language-plaintext highlighter-rouge">LSP-pyright</code> by providing enhanced support for Python projects in Sublime Text</p>
-  </li>
-  <li>
-    <p><strong><a href="https://github.com/alberti42/sublime-virtualenv">Virtualenv Selector for Sublime Text</a></strong>: A Sublime Text plugin that provides a simple way to select Python virtual environments directly from the editor.</p>
-  </li>
 </ul>
 
 <h2 id="shell-plugins">Shell Plugins</h2>
@@ -150,9 +144,6 @@
 
 <ul>
   <li>
-    <p><strong><a href="https://github.com/alberti42/SSHuttleBar">SSHuttleBar</a></strong>: This apps allows you to control the CLI utility <a href="https://github.com/sshuttle/sshuttle"><code class="language-plaintext highlighter-rouge">sshuttle</code></a> direclty from the macOS menu bar. Thereby, one can emulate the functionality of a VPN by leveraging SSH connections. The program works, but the documentation is still missing. It integrates with 1Password SSH agent to retrieve automatically the password of remote servers.</p>
-  </li>
-  <li>
     <p><strong><a href="https://github.com/alberti42/macOS-hotkeys-manager">macOS Hotkey Manager</a></strong>: A Python script for exporting, importing and resetting macOS application hotkeys. This is particularly useful if you need to transfer your custom keyboard shortcuts to a different machine or back them up for safekeeping.</p>
   </li>
   <li>
@@ -167,6 +158,5 @@
   <li>
     <p><strong><a href="https://github.com/alberti42/iTunes-Volume-Control">iTunes Volume Control</a></strong>: The app is discontinued and superceded by Volume Control. The reason is that iTunes does no longer exist in recent macOS versions. Also, the newer app, Volume Control, is no longer restricted to Apple Music. It also works with Spotify and a few other music players.</p>
   </li>
-</ul>
-  
+</ul>  
 </div>
