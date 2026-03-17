@@ -136,6 +136,9 @@
     <p><strong><a href="https://github.com/alberti42/zsh-appearance-control">zsh-appearance-control</a></strong>: a Zsh plugin that helps your shell “remember” whether you are in light mode or dark mode.</p>
   </li>
   <li>
+    <p><strong><a href="https://github.com/alberti42/zsh-indent-control">zsh-indent-control</a></strong>: A tiny Zsh plugin that makes Tab behave nicely at the start of a line → it turns leading Tab into spaces.</p>
+  </li>
+  <li>
     <p><strong><a href="https://github.com/alberti42/Zsh-Opencode-Tab">zsh-opencode-tab</a></strong>: A zsh plugin to turn natural language into a zsh command by pressing TAB. Compatible with Oh My Zsh.</p>
   </li>
 </ul>
@@ -158,5 +161,6 @@
   <li>
     <p><strong><a href="https://github.com/alberti42/iTunes-Volume-Control">iTunes Volume Control</a></strong>: The app is discontinued and superceded by Volume Control. The reason is that iTunes does no longer exist in recent macOS versions. Also, the newer app, Volume Control, is no longer restricted to Apple Music. It also works with Spotify and a few other music players.</p>
   </li>
-</ul>  
+</ul>
+  
 </div>
