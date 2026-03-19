@@ -1,3 +1,9 @@
+> 🌐 **Official Website:** [alberti42.github.io](https://alberti42.github.io)
+> 
+> *This profile is a mirror of my open-source projects. For the most up-to-date documentation and categorized tools, please visit my [personal page](https://alberti42.github.io).*
+
+---
+
 <div class="wrapper">
         <div class="home"><h1 class="page-heading">Software projects</h1>
 <p>Welcome to Andrea Alberti’s personal page. Below, you find a list of projects I have been currently maintaining in my pastime.</p>
@@ -99,7 +105,7 @@
     <p><strong><a href="https://github.com/alberti42/Nearley.sublime-syntax">Nearly syntax highlighting for Sublime Text Editor</a></strong>: A Sublime Text syntax highlighting file for <a href="https://nearley.js.org/">Nearley</a>. Nearly is a simple, fast, and powerful parsing toolkit. The Nearley.sublime-syntax file enables Sublime Text to recognize and highlight the syntax of Nearley grammar files (<code class="language-plaintext highlighter-rouge">*.ne</code>) effectively.</p>
   </li>
   <li>
-    <p><strong><a href="https://github.com/alberti42/sublime-recent-files-tracker">Recent Files Tracker for Sublime Text</a></strong>: A Sublime Text plugin that tracks recently opened files and projects. It stores the file paths in a JSON file, making it easy to integrate with other tools. This plugin is especially designed to work together with the companion plugin <a href="https://github.com/alberti42/Get-Recent-ST-Files-For-LaunchBar">Get Recently Opened Files with Sublime Text</a> for LaunchBar.</p>
+    <p><strong><a href="https://github.com/alberti42/sublime-recent-files-tracker">Recent Files Tracker for Sublime Text</a></strong>: A Sublime Text plugin that tracks recently opened files and projects. It stores the file paths in a JSON file, making it easy to integrate with other tools. This plugin is especially designed to work together with the companion plugin <a href="https://github.com/alberti42/Get-Recently-Opened-Files-with-Sublime-Text">Get Recently Opened Files with Sublime Text</a> for LaunchBar.</p>
   </li>
 </ul>
 
