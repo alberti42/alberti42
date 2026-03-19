@@ -4,108 +4,26 @@
 
 ---
 
-<div class="wrapper">
-        <div class="home"><h1 class="page-heading">Software projects</h1>
+<div class="home"><h1 class="page-heading">Software projects</h1>
 <p>Welcome to Andrea Alberti’s personal page. Below, you find a list of projects I have been currently maintaining in my pastime.</p>
 
-<h2 id="research-tools">Research Tools</h2>
+<h2 id="macos-utilities">macOS Utilities</h2>
 
 <ul>
   <li>
-    <p><strong><a href="https://github.com/alberti42/chatGPT-plain-composer">ChatGPT Plain Text Composer (userscript)</a></strong>: A lightweight userscript for ChatGPT that replaces the native rich composer with a plain textarea overlay for smooth, lag-free typing — especially in very long chats where the default composer can become slow.</p>
+    <p><strong><a href="https://github.com/alberti42/macOS-hotkeys-manager">macOS Hotkey Manager</a></strong> <a href="https://github.com/alberti42/macOS-hotkeys-manager/stargazers"><img src="https://img.shields.io/github/stars/alberti42/macOS-hotkeys-manager?style=flat-square&amp;label=%E2%98%85&amp;color=dfb317" alt="Stars"></a>: A Python script for exporting, importing and resetting macOS application hotkeys. This is particularly useful if you need to transfer your custom keyboard shortcuts to a different machine or back them up for safekeeping.</p>
   </li>
   <li>
-    <p><strong><a href="https://github.com/alberti42/jupyterlab_image_downloader">JupyterLab Image Downloader for SVG and Common Image Formats</a></strong>: A userscript to add a <strong>download button</strong> to images and SVGs rendered in JupyterLab notebooks. This script supports both <code class="language-plaintext highlighter-rouge">.svg</code> and common image formats like <code class="language-plaintext highlighter-rouge">.png</code> and <code class="language-plaintext highlighter-rouge">.jpeg</code>. The download buttons appear in the top-right corner of the rendered output, allowing you to save the plot with a single click.</p>
+    <p><strong><a href="https://github.com/alberti42/macOS-config-manager">macOS Config Manager</a></strong> <a href="https://github.com/alberti42/macOS-config-manager/stargazers"><img src="https://img.shields.io/github/stars/alberti42/macOS-config-manager?style=flat-square&amp;label=%E2%98%85&amp;color=dfb317" alt="Stars"></a>: A small, dependency-free Python CLI to snapshot and restore macOS preferences managed via the defaults system.</p>
   </li>
   <li>
-    <p><strong><a href="https://github.com/alberti42/jupyterlab_mapyter">JupyterLab extension for Mapyter</a></strong>: A JupyterLab extension providing syntax support for <a href="https://github.com/alberti42/mapyter">Mapyter kernel</a>. It also provides a plugin for JupyterLab for downloading plots with a button. The button is particularly convenient to save plots shown as vectorial <code class="language-plaintext highlighter-rouge">.svg</code> graphics.</p>
+    <p><strong><a href="https://github.com/alberti42/Magic-Warnings">Magic Warnings</a></strong> <a href="https://github.com/alberti42/Magic-Warnings/stargazers"><img src="https://img.shields.io/github/stars/alberti42/Magic-Warnings?style=flat-square&amp;label=%E2%98%85&amp;color=dfb317" alt="Stars"></a>: A lightweight macOS app that monitors the battery levels of your Apple Magic Mouse, Trackpad, and Keyboard.</p>
   </li>
   <li>
-    <p><strong><a href="https://github.com/alberti42/Keynote-Progress-Bar">Keynote Progress Bar</a></strong>: This AppleScript program adds a customizable progress bar to presentations created with Apple Keynote. The progress bar is configured using commands placed in the presenter notes of your slides. This project utilizes a custom Objective-C framework, KeynoteProgressBarHelper, for generating vector graphics (PDF) images of the progress bar.</p>
+    <p><strong><a href="https://github.com/alberti42/Volume-Control">Volume Control App</a></strong> <a href="https://github.com/alberti42/Volume-Control/stargazers"><img src="https://img.shields.io/github/stars/alberti42/Volume-Control?style=flat-square&amp;label=%E2%98%85&amp;color=dfb317" alt="Stars"></a>: This app allows you to directly control the volume of Apple Music and of Spotify using <code class="language-plaintext highlighter-rouge">volume-up</code> and <code class="language-plaintext highlighter-rouge">volume-down</code> keys from your keyboard.</p>
   </li>
   <li>
-    <p><strong><a href="https://github.com/alberti42/mapyter">Mapyter</a></strong>: A JupyterLab kernel to develop MATLAB in a notebook. The project started before Mathworks started <a href="https://de.mathworks.com/products/reference-architectures/jupyter.html">their development</a> of MATLAB kernel for JupyterLab. It offers more advanced features than those currenlty provided by the official kernel, such as the possibility to update plots live, create animations, and display progress bar (even for <code class="language-plaintext highlighter-rouge">parfor</code> loops!). Unfortunately, the documentation page is still missing.</p>
-  </li>
-  <li>
-    <p><strong><a href="https://github.com/alberti42/Millennia-Laser-Control-App/blob/main/README.md">Millennia Laser Control App</a></strong>: Application for controlling and logging Spectra-Physics Millennia Lasers. It covers all functions provided by the app shipped originally with the laser. It also provides new features, most notably, the possibility to log multiple parameters of the laser. Moreover, it gives a feedback about the instantaneous RMS noise level of the laser (5s integration time). And it allows controlling multiple lasers when these are connected to the same computer via USB.</p>
-  </li>
-  <li>
-    <p><strong><a href="https://github.com/alberti42/typingmind-plain-composer">TypingMind Plain Text Composer (userscript)</a></strong>: A lightweight userscript for TypingMind that replaces the native rich composer with a plain textarea overlay for smoother typing — especially in long chats where the DOM becomes heavy and the original composer starts lagging.</p>
-  </li>
-</ul>
-
-<h2 id="obsidian-plugins">Obsidian Plugins</h2>
-
-<p>These are plugins developed to improve the workflow with <a href="https://obsidian.md/">Obsidian</a> personal knowledge management system.</p>
-
-<ul>
-  <li>
-    <p><strong><a href="https://github.com/alberti42/obsidian-plugins-annotations">Annotations for Obsidian Community Plugins</a></strong>: A plugin that allows users to add personal annotations to each installed plugin in Obsidian. This is particularly useful for keeping track of why certain plugins are installed and their specific use cases.</p>
-  </li>
-  <li>
-    <p><strong><a href="https://github.com/alberti42/obsidian-bibdesk-integration">BibDesk Integration Plugin</a></strong>: A plugin that integrates the macOS BibDesk application with the PDF++ plugin in Obsidian, enabling you to manage and open PDFs associated with BibDesk entries directly from Obsidian. It works with external BibTeX files, leveraging BibDesk’s bdsk-file-<number> fields, which act as macOS bookmarks, allowing seamless file access even if files are renamed or moved.</number></p>
-  </li>
-  <li>
-    <p><strong><a href="https://github.com/alberti42/obsidian-dataview-recent-files">Dataview Recent Files</a></strong>: A plugin visualizing a list of recently create and modified files in a fuzzy search modal in Obsidian. It extends the functionality of Obsidian Dataview plugin. The list of the recently created and modified files is determined by the frontmatter fields, rather than on the timestamp of the MarkDown file, which can change in an uncontrolled manner, especially if syncing the vault between multiple Obsidian devices. The dcumentation page is still misisng.</p>
-  </li>
-  <li>
-    <p><strong><a href="https://github.com/alberti42/obsidian-icon-bar-manager-plugin">Icon Bar Manager</a></strong>: A plugin for hiding undesired icons in Obisdian. Many plugins install icons without offering the possibility to hide them, resulting in a cluttered interface. The plugin allows controlling the order of the few icons one wishes to use. Unfortunately, the documentation page is missing. Furthermore, the plugin is still in an alpha stage and possibly only useful to expert users who can tweak it.</p>
-  </li>
-  <li>
-    <p><strong><a href="https://github.com/alberti42/obsidian-import-attachments-plus">Import Attachments+ Plugin</a></strong>: A plugin that enhances the attachment management experience in Obsidian. It allows you to import, organize, and handle attachments (like images, documents, and other files) seamlessly within your vault.</p>
-  </li>
-  <li>
-    <p><strong><a href="https://github.com/alberti42/obsidian-minimize-on-close">Minimize on Close</a></strong>: A plugin that minimizes the application window to the dock or taskbar when all open panes are closed. This behavior is particularly standard on macOS and can now be optionally applied across all platforms.</p>
-  </li>
-  <li>
-    <p><strong><a href="https://github.com/alberti42/obsidian-recoll-search-plugin">Recoll Search Engine Plugin for Obsidian</a></strong>: A plugin for Obsidian to search the vault using the powerful <a href="https://www.recoll.org/">Recoll Search Engine</a>.</p>
-  </li>
-</ul>
-
-<h2 id="python-packages">Python Packages</h2>
-
-<p>These are Python packages developed to improve the workflow in scientific computing and scientific automation:</p>
-
-<ul>
-  <li><strong><a href="https://github.com/alberti42/matplotlib-window-tracker">Matplotlib Window Tracker (matplotlib-window-tracker)</a></strong>: This package, <code class="language-plaintext highlighter-rouge">matplotlib-window-tracker</code>, is designed for scientists and anyone who prefers a script-based workflow (plain <code class="language-plaintext highlighter-rouge">.py</code> files) with IPython. It keep windows where you placed them: reuse the same OS windows across re-runs.</li>
-</ul>
-
-<h2 id="launchbar-actions">LaunchBar Actions</h2>
-
-<p>These are plugins developed to improve the workflow with <a href="https://www.obdev.at/products/launchbar/index.html">LaunchBar</a> personal knowledge management system.</p>
-
-<ul>
-  <li>
-    <p><strong><a href="https://github.com/alberti42/Get-Recent-Adobe-Documents-For-LaunchBar">Get Recent Adobe Documents</a></strong>: A plugin for LaunchBar to display the list of the documents recently opened with the Adobe programs <a href="https://www.adobe.com/acrobat.html">Acrobat</a>, <a href="https://www.adobe.com/products/photoshop.html">Photoshop</a>, <a href="https://www.adobe.com/products/illustrator.html">Illustrator</a>.</p>
-  </li>
-  <li>
-    <p><strong><a href="https://github.com/alberti42/Get-Recent-MATLAB-Documents-For-LaunchBar">Get Recent MATLAB Documents</a></strong>: A plugin for LaunchBar to display the list of the documents recently opened with <a href="https://www.mathworks.com/">Mathworks MATLAB</a>.</p>
-  </li>
-  <li>
-    <p><strong><a href="https://github.com/alberti42/Get-Recent-Microsoft-Office-Documents-For-LaunchBar">Get Recent Microsoft Office Documents</a></strong>: A plugin for LaunchBar to display the list of the documents recently opened with the Microsoft Office programs <a href="https://www.microsoft.com/en-us/microsoft-365/word">Word</a>, <a href="https://www.microsoft.com/en-us/microsoft-365/excel">Excel</a>, and <a href="https://www.microsoft.com/en-us/microsoft-365/powerpoint">PowerPoint</a>.</p>
-  </li>
-  <li>
-    <p><strong><a href="https://github.com/alberti42/Get-Recent-VS-Code-Documents-For-LaunchBar">Get Recent Visual Studio Code Documents</a></strong>: A plugin for LaunchBar to display the list of the documents recently opened with <a href="https://code.visualstudio.com/">Visual Studio Code</a>.</p>
-  </li>
-  <li>
-    <p><strong><a href="https://github.com/alberti42/Get-Recent-ST-Files-For-LaunchBar">Get Recently Opened Files with Sublime Text for LaunchBar</a></strong>: A plugin for LaunchBar to display the list of the files and projects recently opened with <a href="https://www.sublimetext.com/">Sublime Text</a> editor. This plugin is designed to work together with the companion plugin <a href="https://github.com/alberti42/sublime-recent-files-tracker">Recent Files Tracker</a> for Sublime Text editor.</p>
-  </li>
-  <li>
-    <p><strong><a href="https://github.com/alberti42/Get-Recent-Mathematica-Documents-For-LaunchBar">Get Wolfram Mathematica Recent Documents</a></strong>: A plugin for LaunchBar to display the list of the documents recently opened with <a href="https://www.wolfram.com/mathematica/">Wolfram Mathematica</a>.</p>
-  </li>
-  <li>
-    <p><strong><a href="https://github.com/alberti42/Open-iTerm2-Profile">Open iTerm2 Profile</a></strong>: A plugin for LaunchBar that allows users to quickly open a terminal session using any available <a href="https://iterm2.com/">iTerm2</a> profile.</p>
-  </li>
-</ul>
-
-<h2 id="sublime-text-editor-plugins">Sublime Text Editor Plugins</h2>
-
-<ul>
-  <li>
-    <p><strong><a href="https://github.com/alberti42/Nearley.sublime-syntax">Nearly syntax highlighting for Sublime Text Editor</a></strong>: A Sublime Text syntax highlighting file for <a href="https://nearley.js.org/">Nearley</a>. Nearly is a simple, fast, and powerful parsing toolkit. The Nearley.sublime-syntax file enables Sublime Text to recognize and highlight the syntax of Nearley grammar files (<code class="language-plaintext highlighter-rouge">*.ne</code>) effectively.</p>
-  </li>
-  <li>
-    <p><strong><a href="https://github.com/alberti42/sublime-recent-files-tracker">Recent Files Tracker for Sublime Text</a></strong>: A Sublime Text plugin that tracks recently opened files and projects. It stores the file paths in a JSON file, making it easy to integrate with other tools. This plugin is especially designed to work together with the companion plugin <a href="https://github.com/alberti42/Get-Recently-Opened-Files-with-Sublime-Text">Get Recently Opened Files with Sublime Text</a> for LaunchBar.</p>
+    <p><strong><a href="https://github.com/alberti42/iTunes-Volume-Control">iTunes Volume Control</a></strong> <a href="https://github.com/alberti42/iTunes-Volume-Control/stargazers"><img src="https://img.shields.io/github/stars/alberti42/iTunes-Volume-Control?style=flat-square&amp;label=%E2%98%85&amp;color=dfb317" alt="Stars"></a>: The app is discontinued and superceded by Volume Control. The reason is that iTunes does no longer exist in recent macOS versions. Also, the newer app, Volume Control, is no longer restricted to Apple Music. It also works with Spotify and a few other music players.</p>
   </li>
 </ul>
 
@@ -115,57 +33,135 @@
 
 <ul>
   <li>
-    <p><strong><a href="https://github.com/alberti42/faster-piper.yazi">Yazi plugin faster-piper</a></strong>: faster-piper is a general-purpose previewer that pipes the output of an arbitrary shell command into Yazi’s preview pane, with aggressive caching and efficient scrolling for large outputs.</p>
+    <p><strong><a href="https://github.com/alberti42/faster-piper.yazi">Yazi plugin faster-piper</a></strong> <a href="https://github.com/alberti42/faster-piper.yazi/stargazers"><img src="https://img.shields.io/github/stars/alberti42/faster-piper.yazi?style=flat-square&amp;label=%E2%98%85&amp;color=dfb317" alt="Stars"></a>: faster-piper is a general-purpose previewer that pipes the output of an arbitrary shell command into Yazi’s preview pane, with aggressive caching and efficient scrolling for large outputs.</p>
   </li>
   <li>
-    <p><strong><a href="https://github.com/alberti42/zinit-annex-latest-release">Zinit Annex for Sourcing the Latest GitHub Release</a></strong>: Zinit annex that automatically selects the latest GitHub release tag when installing or updating plugins built from source.</p>
+    <p><strong><a href="https://github.com/alberti42/zinit-annex-latest-release">Zinit Annex for Sourcing the Latest GitHub Release</a></strong> <a href="https://github.com/alberti42/zinit-annex-latest-release/stargazers"><img src="https://img.shields.io/github/stars/alberti42/zinit-annex-latest-release?style=flat-square&amp;label=%E2%98%85&amp;color=dfb317" alt="Stars"></a>: Zinit annex that automatically selects the latest GitHub release tag when installing or updating plugins built from source.</p>
   </li>
   <li>
-    <p><strong><a href="https://github.com/alberti42/zsh-misc-completions">Zsh autocompletion plugin for miscellaneous commands</a></strong>: This repository contains a collection of miscellaneous Zsh completions for various tools.</p>
+    <p><strong><a href="https://github.com/alberti42/zsh-misc-completions">Zsh autocompletion plugin for miscellaneous commands</a></strong> <a href="https://github.com/alberti42/zsh-misc-completions/stargazers"><img src="https://img.shields.io/github/stars/alberti42/zsh-misc-completions?style=flat-square&amp;label=%E2%98%85&amp;color=dfb317" alt="Stars"></a>: This repository contains a collection of miscellaneous Zsh completions for various tools.</p>
   </li>
   <li>
-    <p><strong><a href="https://github.com/alberti42/dotfiles">dotfiles for macOS &amp; linux</a></strong>: These are my personal dotfiles, which include configurations for zsh shell, various tools and applications I use daily. They are designed to be lightweight and fast, supporting my workflow on macOS and Linux.</p>
+    <p><strong><a href="https://github.com/alberti42/dotfiles">dotfiles for macOS &amp; linux</a></strong> <a href="https://github.com/alberti42/dotfiles/stargazers"><img src="https://img.shields.io/github/stars/alberti42/dotfiles?style=flat-square&amp;label=%E2%98%85&amp;color=dfb317" alt="Stars"></a>: These are my personal dotfiles, which include configurations for zsh shell, various tools and applications I use daily. They are designed to be lightweight and fast, supporting my workflow on macOS and Linux.</p>
   </li>
   <li>
-    <p><strong><a href="https://github.com/alberti42/emacs-tmux-tandem">emacs-tmux-tandem</a></strong>: An Emacs module to integrate Emacs in Tmux. Keep Emacs running in one pane of a tmux window alongside your other tools — a shell, yazi, lazygit, or anything else. Run et FILE from any pane in that window and the file opens instantly in the Emacs session next to you.</p>
+    <p><strong><a href="https://github.com/alberti42/emacs-tmux-tandem">emacs-tmux-tandem</a></strong> <a href="https://github.com/alberti42/emacs-tmux-tandem/stargazers"><img src="https://img.shields.io/github/stars/alberti42/emacs-tmux-tandem?style=flat-square&amp;label=%E2%98%85&amp;color=dfb317" alt="Stars"></a>: An Emacs module to integrate Emacs in Tmux. Keep Emacs running in one pane of a tmux window alongside your other tools — a shell, yazi, lazygit, or anything else. Run et FILE from any pane in that window and the file opens instantly in the Emacs session next to you.</p>
   </li>
   <li>
-    <p><strong><a href="https://github.com/alberti42/fzf-recent-dirs">fzf-recent-files</a></strong>: A minimal Zsh plugin for fuzzy-jumping to recently visited directories</p>
+    <p><strong><a href="https://github.com/alberti42/fzf-recent-dirs">fzf-recent-files</a></strong> <a href="https://github.com/alberti42/fzf-recent-dirs/stargazers"><img src="https://img.shields.io/github/stars/alberti42/fzf-recent-dirs?style=flat-square&amp;label=%E2%98%85&amp;color=dfb317" alt="Stars"></a>: A minimal Zsh plugin for fuzzy-jumping to recently visited directories</p>
   </li>
   <li>
-    <p><strong><a href="https://github.com/alberti42/tmux-fzf-links">tmux-fzf-links plugin for tmux</a></strong>: A versatie tmux plugin to open any kind of link. Links are defined by customizable regular expressions. You can open local files, url, and any lines of code where errors have been generated.</p>
+    <p><strong><a href="https://github.com/alberti42/tmux-fzf-links">tmux-fzf-links plugin for tmux</a></strong> <a href="https://github.com/alberti42/tmux-fzf-links/stargazers"><img src="https://img.shields.io/github/stars/alberti42/tmux-fzf-links?style=flat-square&amp;label=%E2%98%85&amp;color=dfb317" alt="Stars"></a>: A versatie tmux plugin to open any kind of link. Links are defined by customizable regular expressions. You can open local files, url, and any lines of code where errors have been generated.</p>
   </li>
   <li>
-    <p><strong><a href="https://github.com/alberti42/tmux-ssh-syncing">tmux-ssh-syncing plugin for zsh shell</a></strong>: Synchronize your tmux window names with active ssh sessions. This plugin dynamically updates the tmux window name to reflect the remote hosts of active ssh sessions in the same window. It also restores the original window name when all ssh sessions are closed.</p>
+    <p><strong><a href="https://github.com/alberti42/tmux-ssh-syncing">tmux-ssh-syncing plugin for zsh shell</a></strong> <a href="https://github.com/alberti42/tmux-ssh-syncing/stargazers"><img src="https://img.shields.io/github/stars/alberti42/tmux-ssh-syncing?style=flat-square&amp;label=%E2%98%85&amp;color=dfb317" alt="Stars"></a>: Synchronize your tmux window names with active ssh sessions. This plugin dynamically updates the tmux window name to reflect the remote hosts of active ssh sessions in the same window. It also restores the original window name when all ssh sessions are closed.</p>
   </li>
   <li>
-    <p><strong><a href="https://github.com/alberti42/zsh-appearance-control">zsh-appearance-control</a></strong>: a Zsh plugin that helps your shell “remember” whether you are in light mode or dark mode.</p>
+    <p><strong><a href="https://github.com/alberti42/zsh-appearance-control">zsh-appearance-control</a></strong> <a href="https://github.com/alberti42/zsh-appearance-control/stargazers"><img src="https://img.shields.io/github/stars/alberti42/zsh-appearance-control?style=flat-square&amp;label=%E2%98%85&amp;color=dfb317" alt="Stars"></a>: a Zsh plugin that helps your shell “remember” whether you are in light mode or dark mode.</p>
   </li>
   <li>
-    <p><strong><a href="https://github.com/alberti42/zsh-indent-control">zsh-indent-control</a></strong>: A tiny Zsh plugin that makes Tab behave nicely at the start of a line → it turns leading Tab into spaces.</p>
+    <p><strong><a href="https://github.com/alberti42/zsh-indent-control">zsh-indent-control</a></strong> <a href="https://github.com/alberti42/zsh-indent-control/stargazers"><img src="https://img.shields.io/github/stars/alberti42/zsh-indent-control?style=flat-square&amp;label=%E2%98%85&amp;color=dfb317" alt="Stars"></a>: A tiny Zsh plugin that makes Tab behave nicely at the start of a line → it turns leading Tab into spaces.</p>
   </li>
   <li>
-    <p><strong><a href="https://github.com/alberti42/Zsh-Opencode-Tab">zsh-opencode-tab</a></strong>: A zsh plugin to turn natural language into a zsh command by pressing TAB. Compatible with Oh My Zsh.</p>
+    <p><strong><a href="https://github.com/alberti42/Zsh-Opencode-Tab">zsh-opencode-tab</a></strong> <a href="https://github.com/alberti42/Zsh-Opencode-Tab/stargazers"><img src="https://img.shields.io/github/stars/alberti42/Zsh-Opencode-Tab?style=flat-square&amp;label=%E2%98%85&amp;color=dfb317" alt="Stars"></a>: A zsh plugin to turn natural language into a zsh command by pressing TAB. Compatible with Oh My Zsh.</p>
   </li>
 </ul>
 
-<h2 id="macos-utilities">macOS Utilities</h2>
+<h2 id="obsidian-plugins">Obsidian Plugins</h2>
+
+<p>These are plugins developed to improve the workflow with <a href="https://obsidian.md/">Obsidian</a> personal knowledge management system.</p>
 
 <ul>
   <li>
-    <p><strong><a href="https://github.com/alberti42/macOS-hotkeys-manager">macOS Hotkey Manager</a></strong>: A Python script for exporting, importing and resetting macOS application hotkeys. This is particularly useful if you need to transfer your custom keyboard shortcuts to a different machine or back them up for safekeeping.</p>
+    <p><strong><a href="https://github.com/alberti42/obsidian-plugins-annotations">Annotations for Obsidian Community Plugins</a></strong> <a href="https://github.com/alberti42/obsidian-plugins-annotations/stargazers"><img src="https://img.shields.io/github/stars/alberti42/obsidian-plugins-annotations?style=flat-square&amp;label=%E2%98%85&amp;color=dfb317" alt="Stars"></a>: A plugin that allows users to add personal annotations to each installed plugin in Obsidian. This is particularly useful for keeping track of why certain plugins are installed and their specific use cases.</p>
   </li>
   <li>
-    <p><strong><a href="https://github.com/alberti42/macOS-config-manager">macOS Config Manager</a></strong>: A small, dependency-free Python CLI to snapshot and restore macOS preferences managed via the defaults system.</p>
+    <p><strong><a href="https://github.com/alberti42/obsidian-bibdesk-integration">BibDesk Integration Plugin</a></strong> <a href="https://github.com/alberti42/obsidian-bibdesk-integration/stargazers"><img src="https://img.shields.io/github/stars/alberti42/obsidian-bibdesk-integration?style=flat-square&amp;label=%E2%98%85&amp;color=dfb317" alt="Stars"></a>: A plugin that integrates the macOS BibDesk application with the PDF++ plugin in Obsidian, enabling you to manage and open PDFs associated with BibDesk entries directly from Obsidian. It works with external BibTeX files, leveraging BibDesk’s bdsk-file-<number> fields, which act as macOS bookmarks, allowing seamless file access even if files are renamed or moved.</number></p>
   </li>
   <li>
-    <p><strong><a href="https://github.com/alberti42/Magic-Warnings">Magic Warnings</a></strong>: A lightweight macOS app that monitors the battery levels of your Apple Magic Mouse, Trackpad, and Keyboard.</p>
+    <p><strong><a href="https://github.com/alberti42/obsidian-dataview-recent-files">Dataview Recent Files</a></strong> <a href="https://github.com/alberti42/obsidian-dataview-recent-files/stargazers"><img src="https://img.shields.io/github/stars/alberti42/obsidian-dataview-recent-files?style=flat-square&amp;label=%E2%98%85&amp;color=dfb317" alt="Stars"></a>: A plugin visualizing a list of recently create and modified files in a fuzzy search modal in Obsidian. It extends the functionality of Obsidian Dataview plugin. The list of the recently created and modified files is determined by the frontmatter fields, rather than on the timestamp of the MarkDown file, which can change in an uncontrolled manner, especially if syncing the vault between multiple Obsidian devices. The dcumentation page is still misisng.</p>
   </li>
   <li>
-    <p><strong><a href="https://github.com/alberti42/Volume-Control">Volume Control App</a></strong>: This app allows you to directly control the volume of Apple Music and of Spotify using <code class="language-plaintext highlighter-rouge">volume-up</code> and <code class="language-plaintext highlighter-rouge">volume-down</code> keys from your keyboard.</p>
+    <p><strong><a href="https://github.com/alberti42/obsidian-import-attachments-plus">Import Attachments+ Plugin</a></strong> <a href="https://github.com/alberti42/obsidian-import-attachments-plus/stargazers"><img src="https://img.shields.io/github/stars/alberti42/obsidian-import-attachments-plus?style=flat-square&amp;label=%E2%98%85&amp;color=dfb317" alt="Stars"></a>: A plugin that enhances the attachment management experience in Obsidian. It allows you to import, organize, and handle attachments (like images, documents, and other files) seamlessly within your vault.</p>
   </li>
   <li>
-    <p><strong><a href="https://github.com/alberti42/iTunes-Volume-Control">iTunes Volume Control</a></strong>: The app is discontinued and superceded by Volume Control. The reason is that iTunes does no longer exist in recent macOS versions. Also, the newer app, Volume Control, is no longer restricted to Apple Music. It also works with Spotify and a few other music players.</p>
+    <p><strong><a href="https://github.com/alberti42/obsidian-minimize-on-close">Minimize on Close</a></strong> <a href="https://github.com/alberti42/obsidian-minimize-on-close/stargazers"><img src="https://img.shields.io/github/stars/alberti42/obsidian-minimize-on-close?style=flat-square&amp;label=%E2%98%85&amp;color=dfb317" alt="Stars"></a>: A plugin that minimizes the application window to the dock or taskbar when all open panes are closed. This behavior is particularly standard on macOS and can now be optionally applied across all platforms.</p>
+  </li>
+  <li>
+    <p><strong><a href="https://github.com/alberti42/obsidian-recoll-search-plugin">Recoll Search Engine Plugin for Obsidian</a></strong> <a href="https://github.com/alberti42/obsidian-recoll-search-plugin/stargazers"><img src="https://img.shields.io/github/stars/alberti42/obsidian-recoll-search-plugin?style=flat-square&amp;label=%E2%98%85&amp;color=dfb317" alt="Stars"></a>: A plugin for Obsidian to search the vault using the powerful <a href="https://www.recoll.org/">Recoll Search Engine</a>.</p>
+  </li>
+</ul>
+
+<h2 id="launchbar-actions">LaunchBar Actions</h2>
+
+<p>These are plugins developed to improve the workflow with <a href="https://www.obdev.at/products/launchbar/index.html">LaunchBar</a> personal knowledge management system.</p>
+
+<ul>
+  <li>
+    <p><strong><a href="https://github.com/alberti42/Get-Recent-Adobe-Documents-For-LaunchBar">Get Recent Adobe Documents</a></strong> <a href="https://github.com/alberti42/Get-Recent-Adobe-Documents-For-LaunchBar/stargazers"><img src="https://img.shields.io/github/stars/alberti42/Get-Recent-Adobe-Documents-For-LaunchBar?style=flat-square&amp;label=%E2%98%85&amp;color=dfb317" alt="Stars"></a>: A plugin for LaunchBar to display the list of the documents recently opened with the Adobe programs <a href="https://www.adobe.com/acrobat.html">Acrobat</a>, <a href="https://www.adobe.com/products/photoshop.html">Photoshop</a>, <a href="https://www.adobe.com/products/illustrator.html">Illustrator</a>.</p>
+  </li>
+  <li>
+    <p><strong><a href="https://github.com/alberti42/Get-Recent-MATLAB-Documents-For-LaunchBar">Get Recent MATLAB Documents</a></strong> <a href="https://github.com/alberti42/Get-Recent-MATLAB-Documents-For-LaunchBar/stargazers"><img src="https://img.shields.io/github/stars/alberti42/Get-Recent-MATLAB-Documents-For-LaunchBar?style=flat-square&amp;label=%E2%98%85&amp;color=dfb317" alt="Stars"></a>: A plugin for LaunchBar to display the list of the documents recently opened with <a href="https://www.mathworks.com/">Mathworks MATLAB</a>.</p>
+  </li>
+  <li>
+    <p><strong><a href="https://github.com/alberti42/Get-Recent-Microsoft-Office-Documents-For-LaunchBar">Get Recent Microsoft Office Documents</a></strong> <a href="https://github.com/alberti42/Get-Recent-Microsoft-Office-Documents-For-LaunchBar/stargazers"><img src="https://img.shields.io/github/stars/alberti42/Get-Recent-Microsoft-Office-Documents-For-LaunchBar?style=flat-square&amp;label=%E2%98%85&amp;color=dfb317" alt="Stars"></a>: A plugin for LaunchBar to display the list of the documents recently opened with the Microsoft Office programs <a href="https://www.microsoft.com/en-us/microsoft-365/word">Word</a>, <a href="https://www.microsoft.com/en-us/microsoft-365/excel">Excel</a>, and <a href="https://www.microsoft.com/en-us/microsoft-365/powerpoint">PowerPoint</a>.</p>
+  </li>
+  <li>
+    <p><strong><a href="https://github.com/alberti42/Get-Recent-VS-Code-Documents-For-LaunchBar">Get Recent Visual Studio Code Documents</a></strong> <a href="https://github.com/alberti42/Get-Recent-VS-Code-Documents-For-LaunchBar/stargazers"><img src="https://img.shields.io/github/stars/alberti42/Get-Recent-VS-Code-Documents-For-LaunchBar?style=flat-square&amp;label=%E2%98%85&amp;color=dfb317" alt="Stars"></a>: A plugin for LaunchBar to display the list of the documents recently opened with <a href="https://code.visualstudio.com/">Visual Studio Code</a>.</p>
+  </li>
+  <li>
+    <p><strong><a href="https://github.com/alberti42/Get-Recent-ST-Files-For-LaunchBar">Get Recently Opened Files with Sublime Text for LaunchBar</a></strong> <a href="https://github.com/alberti42/Get-Recent-ST-Files-For-LaunchBar/stargazers"><img src="https://img.shields.io/github/stars/alberti42/Get-Recent-ST-Files-For-LaunchBar?style=flat-square&amp;label=%E2%98%85&amp;color=dfb317" alt="Stars"></a>: A plugin for LaunchBar to display the list of the files and projects recently opened with <a href="https://www.sublimetext.com/">Sublime Text</a> editor. This plugin is designed to work together with the companion plugin <a href="https://github.com/alberti42/sublime-recent-files-tracker">Recent Files Tracker</a> for Sublime Text editor.</p>
+  </li>
+  <li>
+    <p><strong><a href="https://github.com/alberti42/Get-Recent-Mathematica-Documents-For-LaunchBar">Get Wolfram Mathematica Recent Documents</a></strong> <a href="https://github.com/alberti42/Get-Recent-Mathematica-Documents-For-LaunchBar/stargazers"><img src="https://img.shields.io/github/stars/alberti42/Get-Recent-Mathematica-Documents-For-LaunchBar?style=flat-square&amp;label=%E2%98%85&amp;color=dfb317" alt="Stars"></a>: A plugin for LaunchBar to display the list of the documents recently opened with <a href="https://www.wolfram.com/mathematica/">Wolfram Mathematica</a>.</p>
+  </li>
+  <li>
+    <p><strong><a href="https://github.com/alberti42/Open-iTerm2-Profile">Open iTerm2 Profile</a></strong> <a href="https://github.com/alberti42/Open-iTerm2-Profile/stargazers"><img src="https://img.shields.io/github/stars/alberti42/Open-iTerm2-Profile?style=flat-square&amp;label=%E2%98%85&amp;color=dfb317" alt="Stars"></a>: A plugin for LaunchBar that allows users to quickly open a terminal session using any available <a href="https://iterm2.com/">iTerm2</a> profile.</p>
+  </li>
+</ul>
+
+<h2 id="python-packages">Python Packages</h2>
+
+<p>These are Python packages developed to improve the workflow in scientific computing and scientific automation:</p>
+
+<ul>
+  <li><strong><a href="https://github.com/alberti42/matplotlib-window-tracker">Matplotlib Window Tracker (matplotlib-window-tracker)</a></strong> <a href="https://github.com/alberti42/matplotlib-window-tracker/stargazers"><img src="https://img.shields.io/github/stars/alberti42/matplotlib-window-tracker?style=flat-square&amp;label=%E2%98%85&amp;color=dfb317" alt="Stars"></a>: This package, <code class="language-plaintext highlighter-rouge">matplotlib-window-tracker</code>, is designed for scientists and anyone who prefers a script-based workflow (plain <code class="language-plaintext highlighter-rouge">.py</code> files) with IPython. It keep windows where you placed them: reuse the same OS windows across re-runs.</li>
+</ul>
+
+<h2 id="sublime-text-editor-plugins">Sublime Text Editor Plugins</h2>
+
+<ul>
+  <li>
+    <p><strong><a href="https://github.com/alberti42/Nearley.sublime-syntax">Nearly syntax highlighting for Sublime Text Editor</a></strong> <a href="https://github.com/alberti42/Nearley.sublime-syntax/stargazers"><img src="https://img.shields.io/github/stars/alberti42/Nearley.sublime-syntax?style=flat-square&amp;label=%E2%98%85&amp;color=dfb317" alt="Stars"></a>: A Sublime Text syntax highlighting file for <a href="https://nearley.js.org/">Nearley</a>. Nearly is a simple, fast, and powerful parsing toolkit. The Nearley.sublime-syntax file enables Sublime Text to recognize and highlight the syntax of Nearley grammar files (<code class="language-plaintext highlighter-rouge">*.ne</code>) effectively.</p>
+  </li>
+  <li>
+    <p><strong><a href="https://github.com/alberti42/sublime-recent-files-tracker">Recent Files Tracker for Sublime Text</a></strong> <a href="https://github.com/alberti42/sublime-recent-files-tracker/stargazers"><img src="https://img.shields.io/github/stars/alberti42/sublime-recent-files-tracker?style=flat-square&amp;label=%E2%98%85&amp;color=dfb317" alt="Stars"></a>: A Sublime Text plugin that tracks recently opened files and projects. It stores the file paths in a JSON file, making it easy to integrate with other tools. This plugin is especially designed to work together with the companion plugin <a href="https://github.com/alberti42/Get-Recent-ST-Files-For-LaunchBar">Get Recently Opened Files with Sublime Text</a> for LaunchBar.</p>
+  </li>
+</ul>
+
+<h2 id="research-tools">Research Tools</h2>
+
+<ul>
+  <li>
+    <p><strong><a href="https://github.com/alberti42/chatGPT-plain-composer">ChatGPT Plain Text Composer (userscript)</a></strong> <a href="https://github.com/alberti42/chatGPT-plain-composer/stargazers"><img src="https://img.shields.io/github/stars/alberti42/chatGPT-plain-composer?style=flat-square&amp;label=%E2%98%85&amp;color=dfb317" alt="Stars"></a>: A lightweight userscript for ChatGPT that replaces the native rich composer with a plain textarea overlay for smooth, lag-free typing — especially in very long chats where the default composer can become slow.</p>
+  </li>
+  <li>
+    <p><strong><a href="https://github.com/alberti42/jupyterlab_image_downloader">JupyterLab Image Downloader for SVG and Common Image Formats</a></strong> <a href="https://github.com/alberti42/jupyterlab_image_downloader/stargazers"><img src="https://img.shields.io/github/stars/alberti42/jupyterlab_image_downloader?style=flat-square&amp;label=%E2%98%85&amp;color=dfb317" alt="Stars"></a>: A userscript to add a <strong>download button</strong> to images and SVGs rendered in JupyterLab notebooks. This script supports both <code class="language-plaintext highlighter-rouge">.svg</code> and common image formats like <code class="language-plaintext highlighter-rouge">.png</code> and <code class="language-plaintext highlighter-rouge">.jpeg</code>. The download buttons appear in the top-right corner of the rendered output, allowing you to save the plot with a single click.</p>
+  </li>
+  <li>
+    <p><strong><a href="https://github.com/alberti42/jupyterlab_mapyter">JupyterLab extension for Mapyter</a></strong> <a href="https://github.com/alberti42/jupyterlab_mapyter/stargazers"><img src="https://img.shields.io/github/stars/alberti42/jupyterlab_mapyter?style=flat-square&amp;label=%E2%98%85&amp;color=dfb317" alt="Stars"></a>: A JupyterLab extension providing syntax support for <a href="https://github.com/alberti42/mapyter">Mapyter kernel</a>. It also provides a plugin for JupyterLab for downloading plots with a button. The button is particularly convenient to save plots shown as vectorial <code class="language-plaintext highlighter-rouge">.svg</code> graphics.</p>
+  </li>
+  <li>
+    <p><strong><a href="https://github.com/alberti42/Keynote-Progress-Bar">Keynote Progress Bar</a></strong> <a href="https://github.com/alberti42/Keynote-Progress-Bar/stargazers"><img src="https://img.shields.io/github/stars/alberti42/Keynote-Progress-Bar?style=flat-square&amp;label=%E2%98%85&amp;color=dfb317" alt="Stars"></a>: This AppleScript program adds a customizable progress bar to presentations created with Apple Keynote. The progress bar is configured using commands placed in the presenter notes of your slides. This project utilizes a custom Objective-C framework, KeynoteProgressBarHelper, for generating vector graphics (PDF) images of the progress bar.</p>
+  </li>
+  <li>
+    <p><strong><a href="https://github.com/alberti42/mapyter">Mapyter</a></strong> <a href="https://github.com/alberti42/mapyter/stargazers"><img src="https://img.shields.io/github/stars/alberti42/mapyter?style=flat-square&amp;label=%E2%98%85&amp;color=dfb317" alt="Stars"></a>: A JupyterLab kernel to develop MATLAB in a notebook. The project started before Mathworks started <a href="https://de.mathworks.com/products/reference-architectures/jupyter.html">their development</a> of MATLAB kernel for JupyterLab. It offers more advanced features than those currenlty provided by the official kernel, such as the possibility to update plots live, create animations, and display progress bar (even for <code class="language-plaintext highlighter-rouge">parfor</code> loops!). Unfortunately, the documentation page is still missing.</p>
+  </li>
+  <li>
+    <p><strong><a href="https://github.com/alberti42/Millennia-Laser-Control-App">Millennia Laser Control App</a></strong> <a href="https://github.com/alberti42/Millennia-Laser-Control-App/stargazers"><img src="https://img.shields.io/github/stars/alberti42/Millennia-Laser-Control-App?style=flat-square&amp;label=%E2%98%85&amp;color=dfb317" alt="Stars"></a>: Application for controlling and logging Spectra-Physics Millennia Lasers. It covers all functions provided by the app shipped originally with the laser. It also provides new features, most notably, the possibility to log multiple parameters of the laser. Moreover, it gives a feedback about the instantaneous RMS noise level of the laser (5s integration time). And it allows controlling multiple lasers when these are connected to the same computer via USB.</p>
+  </li>
+  <li>
+    <p><strong><a href="https://github.com/alberti42/typingmind-plain-composer">TypingMind Plain Text Composer (userscript)</a></strong> <a href="https://github.com/alberti42/typingmind-plain-composer/stargazers"><img src="https://img.shields.io/github/stars/alberti42/typingmind-plain-composer?style=flat-square&amp;label=%E2%98%85&amp;color=dfb317" alt="Stars"></a>: A lightweight userscript for TypingMind that replaces the native rich composer with a plain textarea overlay for smoother typing — especially in long chats where the DOM becomes heavy and the original composer starts lagging.</p>
   </li>
 </ul>
   
