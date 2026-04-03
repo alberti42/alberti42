@@ -4,7 +4,8 @@
 
 ---
 
-<div class="home"><h1 class="page-heading">Software projects</h1>
+<div class="wrapper">
+        <div class="home"><h1 class="page-heading">Software projects</h1>
 <p>Welcome to Andrea Alberti’s personal page. Below, you find a list of projects I have been currently maintaining in my pastime.</p>
 
 <h2 id="macos-utilities">macOS Utilities</h2>
@@ -43,9 +44,6 @@
   </li>
   <li>
     <p><strong><a href="https://github.com/alberti42/dotfiles">dotfiles for macOS &amp; linux</a></strong> <a href="https://github.com/alberti42/dotfiles/stargazers"><img src="https://img.shields.io/github/stars/alberti42/dotfiles?style=flat-square&amp;label=%E2%98%85&amp;color=dfb317" alt="Stars"></a>: These are my personal dotfiles, which include configurations for zsh shell, various tools and applications I use daily. They are designed to be lightweight and fast, supporting my workflow on macOS and Linux.</p>
-  </li>
-  <li>
-    <p><strong><a href="https://github.com/alberti42/emacs-tmux-tandem">emacs-tmux-tandem</a></strong> <a href="https://github.com/alberti42/emacs-tmux-tandem/stargazers"><img src="https://img.shields.io/github/stars/alberti42/emacs-tmux-tandem?style=flat-square&amp;label=%E2%98%85&amp;color=dfb317" alt="Stars"></a>: An Emacs module to integrate Emacs in Tmux. Keep Emacs running in one pane of a tmux window alongside your other tools — a shell, yazi, lazygit, or anything else. Run et FILE from any pane in that window and the file opens instantly in the Emacs session next to you.</p>
   </li>
   <li>
     <p><strong><a href="https://github.com/alberti42/fzf-recent-dirs">fzf-recent-files</a></strong> <a href="https://github.com/alberti42/fzf-recent-dirs/stargazers"><img src="https://img.shields.io/github/stars/alberti42/fzf-recent-dirs?style=flat-square&amp;label=%E2%98%85&amp;color=dfb317" alt="Stars"></a>: A minimal Zsh plugin for fuzzy-jumping to recently visited directories</p>
@@ -89,6 +87,19 @@
   </li>
   <li>
     <p><strong><a href="https://github.com/alberti42/obsidian-recoll-search-plugin">Recoll Search Engine Plugin for Obsidian</a></strong> <a href="https://github.com/alberti42/obsidian-recoll-search-plugin/stargazers"><img src="https://img.shields.io/github/stars/alberti42/obsidian-recoll-search-plugin?style=flat-square&amp;label=%E2%98%85&amp;color=dfb317" alt="Stars"></a>: A plugin for Obsidian to search the vault using the powerful <a href="https://www.recoll.org/">Recoll Search Engine</a>.</p>
+  </li>
+</ul>
+
+<h2 id="emacs-contributions">Emacs Contributions</h2>
+
+<p>These are packages and other types of contributions developed to improve the workflow with <a href="https://www.gnu.org/software/emacs/">Emacs</a>.</p>
+
+<ul>
+  <li>
+    <p><strong><a href="https://github.com/alberti42/emacs-docs-themer">Emacs Docs Themer</a></strong> <a href="https://github.com/alberti42/emacs-docs-themer/stargazers"><img src="https://img.shields.io/github/stars/alberti42/emacs-docs-themer?style=flat-square&amp;label=%E2%98%85&amp;color=dfb317" alt="Stars"></a>: This repo is a small community space for sharing browser userscripts (Violentmonkey/Tampermonkey) that improve the UX of specific websites.</p>
+  </li>
+  <li>
+    <p><strong><a href="https://github.com/alberti42/emacs-tmux-tandem">emacs-tmux-tandem</a></strong> <a href="https://github.com/alberti42/emacs-tmux-tandem/stargazers"><img src="https://img.shields.io/github/stars/alberti42/emacs-tmux-tandem?style=flat-square&amp;label=%E2%98%85&amp;color=dfb317" alt="Stars"></a>: An Emacs module to integrate Emacs in Tmux. Keep Emacs running in one pane of a tmux window alongside your other tools — a shell, yazi, lazygit, or anything else. Run et FILE from any pane in that window and the file opens instantly in the Emacs session next to you.</p>
   </li>
 </ul>
 
