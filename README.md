@@ -4,8 +4,7 @@
 
 ---
 
-<div class="wrapper">
-        <div class="home"><h1 class="page-heading">Software projects</h1>
+<div class="home"><h1 class="page-heading">Software projects</h1>
 <p>Welcome to Andrea Alberti’s personal page. Below, you find a list of projects I have been currently maintaining in my pastime.</p>
 
 <h2 id="macos-utilities">macOS Utilities</h2>
@@ -99,6 +98,9 @@
     <p><strong><a href="https://github.com/alberti42/emacs-docs-themer">Emacs Docs Themer</a></strong> <a href="https://github.com/alberti42/emacs-docs-themer/stargazers"><img src="https://img.shields.io/github/stars/alberti42/emacs-docs-themer?style=flat-square&amp;label=%E2%98%85&amp;color=dfb317" alt="Stars"></a>: This repo is a small community space for sharing browser userscripts (Violentmonkey/Tampermonkey) that improve the UX of specific websites.</p>
   </li>
   <li>
+    <p><strong><a href="https://github.com/alberti42/emacs-ltex-plus">Emacs LTeX+</a></strong> <a href="https://github.com/alberti42/emacs-ltex-plus/stargazers"><img src="https://img.shields.io/github/stars/alberti42/emacs-ltex-plus?style=flat-square&amp;label=%E2%98%85&amp;color=dfb317" alt="Stars"></a>: Grammar/spell checker 🔍✔️ for Emacs using LanguageTool with support for LaTeX 🎓, Markdown 📝, Python, Clang, and many others</p>
+  </li>
+  <li>
     <p><strong><a href="https://github.com/alberti42/emacs-tmux-tandem">emacs-tmux-tandem</a></strong> <a href="https://github.com/alberti42/emacs-tmux-tandem/stargazers"><img src="https://img.shields.io/github/stars/alberti42/emacs-tmux-tandem?style=flat-square&amp;label=%E2%98%85&amp;color=dfb317" alt="Stars"></a>: An Emacs module to integrate Emacs in Tmux. Keep Emacs running in one pane of a tmux window alongside your other tools — a shell, yazi, lazygit, or anything else. Run et FILE from any pane in that window and the file opens instantly in the Emacs session next to you.</p>
   </li>
 </ul>
@@ -119,6 +121,9 @@
   </li>
   <li>
     <p><strong><a href="https://github.com/alberti42/Get-Recent-VS-Code-Documents-For-LaunchBar">Get Recent Visual Studio Code Documents</a></strong> <a href="https://github.com/alberti42/Get-Recent-VS-Code-Documents-For-LaunchBar/stargazers"><img src="https://img.shields.io/github/stars/alberti42/Get-Recent-VS-Code-Documents-For-LaunchBar?style=flat-square&amp;label=%E2%98%85&amp;color=dfb317" alt="Stars"></a>: A plugin for LaunchBar to display the list of the documents recently opened with <a href="https://code.visualstudio.com/">Visual Studio Code</a>.</p>
+  </li>
+  <li>
+    <p><strong><a href="https://github.com/alberti42/List-Emacs-Recentf-From-LaunchBar">Get Recently Opened Files with Emacs for LaunchBar</a></strong> <a href="https://github.com/alberti42/List-Emacs-Recentf-From-LaunchBar/stargazers"><img src="https://img.shields.io/github/stars/alberti42/List-Emacs-Recentf-From-LaunchBar?style=flat-square&amp;label=%E2%98%85&amp;color=dfb317" alt="Stars"></a>: A plugin for LaunchBar to display the list of the recentf files opened with <a href="https://www.gnu.org/software/emacs/">Emacs </a> editor.</p>
   </li>
   <li>
     <p><strong><a href="https://github.com/alberti42/Get-Recent-ST-Files-For-LaunchBar">Get Recently Opened Files with Sublime Text for LaunchBar</a></strong> <a href="https://github.com/alberti42/Get-Recent-ST-Files-For-LaunchBar/stargazers"><img src="https://img.shields.io/github/stars/alberti42/Get-Recent-ST-Files-For-LaunchBar?style=flat-square&amp;label=%E2%98%85&amp;color=dfb317" alt="Stars"></a>: A plugin for LaunchBar to display the list of the files and projects recently opened with <a href="https://www.sublimetext.com/">Sublime Text</a> editor. This plugin is designed to work together with the companion plugin <a href="https://github.com/alberti42/sublime-recent-files-tracker">Recent Files Tracker</a> for Sublime Text editor.</p>
@@ -175,5 +180,4 @@
     <p><strong><a href="https://github.com/alberti42/typingmind-plain-composer">TypingMind Plain Text Composer (userscript)</a></strong> <a href="https://github.com/alberti42/typingmind-plain-composer/stargazers"><img src="https://img.shields.io/github/stars/alberti42/typingmind-plain-composer?style=flat-square&amp;label=%E2%98%85&amp;color=dfb317" alt="Stars"></a>: A lightweight userscript for TypingMind that replaces the native rich composer with a plain textarea overlay for smoother typing — especially in long chats where the DOM becomes heavy and the original composer starts lagging.</p>
   </li>
 </ul>
-  
 </div>
